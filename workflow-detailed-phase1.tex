@@ -1,0 +1,62 @@
+\documentclass[preview,border=0mm,convert={density=600,outext=.png}]{standalone}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{tikz}
+\usetikzlibrary{automata,shapes,patterns,calc,arrows}
+\input{tikz-style.tex}
+\begin{document}
+
+\centering
+  \begin{tikzpicture}
+
+
+    \draw[dotted,rounded corners=4mm,fill=grey-5]
+    ($(-3.3,-3.2)$) rectangle ($(8.2,-24.7)$) ;
+
+    \node[author] (submit) at (0,0) {\begin{tabular}{c}\textcolor{blue}{Authors}\\ submit\end{tabular}};
+    \node[eic] (quickevaluate) at (0,-2) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ quickly evaluate\end{tabular}};
+    \node[accepting] (reject1) at (6,-1.95) {\ };
+    \node[eic] (assignvolume1) at (0,-4) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ assign to the volume ``Phase 1''\end{tabular}};
+    \node[eic] (weeklydigest) at (5.8,-6) {\begin{tabular}{c}\textcolor{blue}{Weekly digest}\\ informs editorial board\end{tabular}};
+    \node[eic] (assigneditors) at (0,-6) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ assign handling and partner editors\end{tabular}};
+    \node[eic] (registerinterest) at (5.8,-10) {\begin{tabular}{c}\textcolor{blue}{Editors}\\ declare conflict of interest\end{tabular}};
+    \node[eic] (indicateroles) at (0,-8) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ write messages to the editors \\ to indicate roles (handling / partner)\end{tabular}};
+    \node[editor] (declarecoi) at (0,-10) {\begin{tabular}{c}\textcolor{blue}{Assigned editors}\\ declare conflict of interest\end{tabular}};
+    \node[editor] (invitereviewers) at (0,-12) {\begin{tabular}{c}\textcolor{blue}{Assigned editors}\\ invite reviewers\end{tabular}};
+    \node[eic] (announceeditors) at (5,-12) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ add a comment to \\ announce the editors\end{tabular}};
+    \node[reviewer] (answerreview) at (0,-14) {\begin{tabular}{c}\textcolor{blue}{Reviewers}\\ answer the review request \end{tabular}};
+    \node[reviewer] (sendreview) at (0,-16) {\begin{tabular}{c}\textcolor{blue}{Reviewers}\\ send the review \\ by filling in Phase 1 ``rating''\end{tabular}};
+    \node[editor] (recommendation) at (0,-18.5) {\begin{tabular}{c}\textcolor{blue}{Assigned editors}\\ send recommendation:\\ \textit{conditional accept} OR \textit{reject}\\ (no revisions in Phase 1)\end{tabular}};
+    \node[eic] (weeklydigest2) at (5.8,-18.5) {\begin{tabular}{c}\textcolor{blue}{Weekly digest}\\ informs editorial board\end{tabular}};
+    \node[eic] (registerinterest2) at (5.8,-20.5) {\begin{tabular}{c}\textcolor{blue}{Editors}\\ declare conflict of interest\end{tabular}};
+    \node[editor] (decide) at (0,-22.5) {\begin{tabular}{c}\textcolor{blue}{Editorial board}\\ discusses through comments\\ for one week\end{tabular}};
+    \node[eic] (communicatedecision) at (0,-24) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ communicate decision\end{tabular}};
+    \node[accepting] (phase2) at (0,-26) {\ };
+    \node[accepting] (reject2) at (4,-26) {\ };
+
+    \node (unnamed) at (6,-16) {\begin{tabular}{c}\textcolor{red}{\LARGE{Phase 1:}}\\ \textcolor{red}{$\le$ 3 months}\end{tabular}};
+  
+    \draw[->] (submit) edge node[right] {\begin{tabular}{c}\tiny{\color{red} Submission: Submitted article}\end{tabular}} (quickevaluate) ;
+    \draw[dashed, ->] (quickevaluate) edge node[below] {\begin{tabular}{c}\tiny{\color{red} Rejected article}\end{tabular}} node[above] {\ reject} (reject1) ;
+    \draw[dashed, ->] (quickevaluate) edge node[right] {move to Phase 1} (assignvolume1) ;
+    \draw[->] (assignvolume1) edge (assigneditors) ;
+    \draw[->] (assignvolume1) edge (weeklydigest) ;
+    \draw[->] (assigneditors) edge node {\begin{tabular}{c}\tiny{\color{red} Papers-editors assignment: Assign an editor}\end{tabular}} (indicateroles) ;
+    \draw[->] (indicateroles) edge (declarecoi) ;
+    \draw[->] (weeklydigest) edge (registerinterest) ;
+    \draw[dashed, ->] (declarecoi) edge node[right] {no conflict} (invitereviewers) ;
+    \draw[dashed, ->] (declarecoi) edge[bend right=80] node[right] {conflict} (assigneditors) ;
+    \draw[->] (invitereviewers) edge (announceeditors) ;
+    \draw[->] (invitereviewers) edge node[left] {\begin{tabular}{c}\tiny{\color{red} Reviewing - Invite a user}\end{tabular}} (answerreview) ;
+    \draw[dashed, ->] (answerreview) edge node[right] {accept invitation} (sendreview) ;
+    \draw[dashed, ->] (answerreview) edge[bend right=30] node[right] {decline invitation} (invitereviewers) ;
+    \draw[->] (sendreview) edge (recommendation) ;
+    \draw[dashed, ->] (registerinterest2) edge node[right] {no conflict} (decide) ;
+    \draw[->] (recommendation) edge (weeklydigest2) ;
+    \draw[->] (weeklydigest2) edge (registerinterest2) ;
+    \draw[->] (recommendation) edge (decide) ;
+    \draw[->] (decide) edge (communicatedecision) ;
+    \draw[dashed, ->] (communicatedecision) edge node[left] {reject} (reject2) ;
+    \draw[dashed, ->] (communicatedecision) edge node[left] {\begin{tabular}{c}conditional accept\\ move to Phase 2\end{tabular}} (phase2) ;
+  \end{tikzpicture}
+
+\end{document}

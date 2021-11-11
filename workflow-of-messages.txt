@@ -1,0 +1,502 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+1) Author submits paper
+
+Submission triggers this message (non-customizable)
+to the EiCs and managing editors
+
+TEMPLATE:  Submission: Submitted article - Author copy
+
+I have changed the template so that it explains the two-phase review systems, 
+says that the first phase is expected to take at most 3 months, and that the 
+author will be contacted again when the editor has been selected.
+
+1.1)  EiC or Managing editor (WHO??) moves paper to Phase 1.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+2) EiC assigns managing and partner editors
+
+
+2.1 EiC clicks on Assign Editors, and selects first the handling
+and then the partner editor.
+-----------------------------------------------------------------
+
+This triggers the (non-customizable) message to the editors
+
+TEMPLATE:  Papers-editors assignment: Assign an editor
+
+I've changed this template. The email says almost nothing, 
+only that the EB member has got a new assignment. See 2.2.
+
+2.2 EiC writes two. *ad hoc* emails to the managing and partner
+editors, within the system. 
+------------------------------------------------------------------
+
+This is done by clicking on the email iconsof handling and partner editors.
+
+The emails explain
+
+- the two-phase review
+- the roles of handling and partner editors
+
+and give the editors instructions for 
+- login, 
+- how to communicate between them (through comments?)
+etc. 
+
+Here is a possible text for the message:
+
+********************************
+Ad-hoc email from EiC to Editors
+********************************
+
+--------- VERSION FOR HANDLING EDITOR ------
+
+Subject: theoretics #????: Handling editor
+
+TITLE: XX
+
+Dear YY:
+
+
+I would like you to act as handling editor of the above submission to TheoretiCS. 
+
+Please login to your editor accounts to start the review process.
+Click on "Dashboard" and then on the title of the paper to access
+the paper's page.
+
+Your partner editor is ZZ. You can discuss any action with your partner editor,
+and the two of you must agree on your final recommendation (see below).
+
+Please communicate with your partner editor through the system if at all
+possible, either by writing comments in the paper's page or by
+email (click on the mail icon to the right of the name of the editor in the
+paper's page). Your partner editor receives the same emails as you from the system.
+
+If you haven't assigned at least two reviewers to the paper within two weeks you 
+will start to get automatic reminders. Notice that you can 
+assign yourself and/or your partner editor.
+
+Recall that TheoretiCS follows a two-phase reviewing process. 
+In the first phase, you and your partner editor, usually after seeking the opinion 
+of reviewers, agree on a recommedation: Accept for the second phase, or reject.
+The main criteria are the significance of the results, the belief that the exposition 
+is of high quality or will be so after revision, and the availability of expert reviewers. 
+The paper moves to the second phase after approval by the Editorial Board. 
+
+I would like to ask you to conclude this first phase before
+
+            ****** Date ***** (about current date + 10 weeks)
+
+In the second phase, possibly different reviewers check the validity of the results and the
+presentation. Submissions that pass the first phase are expected to eventually be 
+published, sometimes in revised form, unless significant issues are detected or the desired 
+quality of exposition is not achieved.
+
+----------- END OF VERSION FOR HANDLING EDITOR ---------
+
+------------ VERSION FOR PARTNER EDITOR ------
+
+Subject: theoretics #????: Partner editor
+
+TITLE: XX
+
+Dear YY:
+
+I would like you to act as partner editor of the above submission to TheoretiCS. 
+The handling editor, %%...%%, is in charge of conducting the review process,
+in collaboration with you, and you must make a joint recommendation. 
+
+To access the paper, log into your editor account,
+click on "Dashboard", and then on the title of the paper.
+
+Recall that TheoretiCS follows a two-phase reviewing process. 
+In the first phase, you and your partner editor, usually after seeking the opinion 
+of reviewers, agree on a recommedation: Accept for the second phase, or reject.
+The main criteria are the significance of the results, the belief that the exposition 
+is of high quality or will be so after revision, and the availability of expert reviewers. 
+The paper moves to the second phase after approval by the Editorial Board.
+
+I have asked the handling editor to conclude this phase before
+
+            ****** Date ***** (about current date + 10 weeks)
+
+In the second phase, reviewers check the validity of the results and make suggestions 
+to achieve a presentation of high quality. Submissions that qualify for the second 
+phase are expected to eventually be published, usually in revised form, unless 
+significant issues are detected or the desired quality of exposition is not achieved.
+
+----------- END OF VERSION FOR PARTNER EDITOR ------------
+
+
+Best regards, Uri/Javier
+
+Editor-In-Chief
+--
+
+
+2.3 EiC writes a comment 
+------------------------
+
+With text:
+
+"Managing Editor: X Partner Editor: Y"
+
+so that the information about which is which is visible in the 
+page of the submission.
+
+
+************************************************************************
+
+We have agreed to the following:
+
+- Editors do not have to acknowledge accepting to handle the paper.
+
+- Editors get an automatic reminders if they haven't assigned 
+at least two reviewers after two weeks.
+
+- EiCs inform authors of who is the handling editor. They do so when 
+they think it's clear that the handling editor has accepted the 
+paper (probably because reviewers have already been assigned).
+
+- Authors can suggest one editor.
+
+COMMENT: The system uses two different templates, depending on whether
+the chosen editor is the one suggested by the authors or not
+(probably because if the message mentions that the authors suggested the editor,
+then the editor is more likely to accept, it's "the natural candidate").
+I have changed the texts so that in both cases the editor gets the same
+message.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+3) Handling/partner editors assign reviewers
+
+Handling/partner editor invites a reviewer by clicking on "Invite Reviewer".
+Depending on whether the reviewer has already reviewed or not,
+and has an account of not, the system sends one of these three
+messages, that can be customzed before they are sent:
+
+TEMPLATE: Reviewing - Invite a user to review an article - existing user 
+
+or
+
+TEMPLATE: Reviewing - Invite a user to review an article - user does not have an account yet
+
+or
+
+TEMPLATE: Reviewing - Invite a user to review an article - existing reviewer
+
+I have modified the templates so that they have two versions 
+for the first and second phases. They look like this:
+
+----- KEEP THIS TEXT ONLY FOR FIRST-PHASE REVIEW ---------
+Text
+------------- END OF TEXT FOR FIRST-PHASE REVIEW -------------
+
+------ KEEP THIS TEXT ONLY FOR SECOND-PHASE REVIEW ---------
+Text
+--------- END OF TEXT FOR SECOND-PHASE REVIEW -------------
+
+-------- KEEP THE TEXT BELOW FOR BOTH PHASES --------------
+Text
+
+The editors *must* delete the part that does not correspond. 
+They can customize the text further if they wish.
+
+I have set the "Default rating delay" to 4 weeks. The messages
+use this for the deadline of the first phase. That is, a
+Phase-1-reviewer is given one month for a review as default.
+
+(I've also set the Minimum and Maximum rating delays to 2
+days and 8 weeks. I DON'T KNOW WHAT THEY DO!!
+
+The Delay before invitation expires is 1 month. This is probably
+too long for a Phase-1-review, but it has to work for both 
+Phase-1 and Phase-2 reviewers ...)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+4) Reviewers review paper
+
+There is a common rating grid for reviewers, which looks like this:
+
+FILL ONLY THE PHASE 1 OR PHASE 2 PART
+
+--------------------------------
+Phase 1 review (quick review)
+
+Rating (Accept/reject)
+
+Report
+
+Confidential comments for the editors
+
+Would you be available for a second-phase review? (Yes/No/Maybe)
+----------------------------------
+Phase 2 review (standard review)
+
+Rating (Accept(Minor revision/Major revision/Reject)
+
+Report
+
+Confidential comments for the editors
+
+Would you like to see the revised version?
+---------------------------------------------------------------------------
+
+The duplication is necessary for the case (which might be quite common) 
+that a Phase 1 reviewer also acts as reviewer in phase 2. In this case
+the reviewer will first fill the Phase 1 part and then, later, the
+Phase 2 part (see below)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+5) Handling/partner editors make recommendation
+
+Handling editor changes the article status, choosing one of
+
+I recommend to accept the article
+I suggest to reject the article
+
+
+PROBLEM: 
+
+- The options should be "move to second phase" and "reject".
+Unfortunately, there seems to be no way to do this.
+
+- Editors also see another two options:
+"ask for a minor revision" and "ask for a major revision".
+They shouldn't choose them in the first phase. (If they do,
+they directly send a message to the authors, and then it's
+too late.)
+
+Unfortunately, it seems that we cannot edit these texts to
+"Choose only in phase 2: Ask for a minor revision"
+"Choose only in phase 2: Ask for a major revision"
+
+TODO: EXPLAIN THIS ISSUE TO EDITORS!!!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+6) EiCs communicate result of first phase to authors
+
+
+6.1) If EiC rejects he just choosees the Reject option.
+
+Otherwise, EiC proceeds to notif the authors, sending them the reviews.
+There are two possibilities for this:
+
+a) EiC sends an ad hoc message to author, inlcuding the reviews in it by
+hand (that is, EiC must copy ans paste the reviews into the message). 
+
+********************************
+Ah hoc email from EiC to Authors
+********************************
+
+Title: XX
+
+Dear Author:
+
+I am very happy to inform you that your paper has 
+successfully passed the first phase of our review process. 
+This means that the Editorial Board considers the results of 
+your paper significant and of lasting value. 
+The referee reports are attached. 
+
+The paper will now undergo a thorough review to check the 
+correctness of the results and the exposition. You are not
+expected to react to the referee reports at this stage.
+
+With best regards,
+
+XX
+
+Editor-in-Chief, TheoretiCS
+
+--- Reviews ----
+
+b) EiC changes the status of the paper to "Ask for minor revision".
+This triggers a customizable message which automatically includes
+the reviews (tag %%PAPER_RATINGS%%%). EiC replaces the text of the 
+message with the above. Then EiC impersonates one of the authors,
+and chooses the option "Reply to the request without any changes".
+This changes the status of the paper agin to "Reviewed".
+
+TODO: There is a good chance that Episciences can implement something
+to help us with this step. For example, being able to use the tags in
+ad hac message would already solve the problem. Antoine has already 
+contacted the about this.
+
+6.2 EiC moves the paper to the Phase 2 volume
+
+6.3 EiC makes comment in the paper's page saying that it has 
+been moved to the second phase.
+
+6.4 EiC sends ad hoc message to editors asking them to initiate 
+the second phase.
+
+********************************
+Ah hoc email from EiC to Editors
+********************************
+
+Title: XX
+
+Dear XX:
+
+I have now moved the paper to the second phase. Please
+notice that you now have to assign referees again, or
+``re-use'' the reviewers of the first phase (in their reviews
+they have already indicated if they could be available for this).
+
+To assign referees, go to the page of the paper (for example,
+by clicking on "Dashboard" in the menu on the left, and then
+clicking on the paper's title), and proceed as follows:
+
+- To invite new reviewers, scroll down to the section
+"Reviewers" and click on "Invite a reviewer"
+
+- To "re-use" a reviewer for the second phase,
+you must first know that the review template consists of two parts, 
+labeled "Phase 1" and "Phase 2". Your reviewer has already filled the 
+"Phase 1" part. Now the reviewer should access the system again and 
+fill the "Phase 2" part too. For this, proceed as follows:
+
+1) Click on the three vertical dots to the left of the reviewer's name,
+and select "Allow to edit the reviewing";
+2) Click again on the three vertical dots, and select "Contact this reviewer".
+An email form appears in the screen.
+3) Email the reviewer, asking him or her to review the paper and, when done,
+fill the "Phase 2" part of the review template.
+
+The system will not send any automatic reminder asking you to assign 
+reviewers, so please act as soon as possible. 
+
+Please give reviewers a deadline. The standard review
+time for the second phase is XX months 
+
+With best regards,
+
+XX
+
+Editor-in-Chief, TheoretiCS
+
+
+PROBLEM: EiCs have to be very careful here, they cannot make 
+mistakes.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+7) Handling/partner editors assign reviewers for the second phase
+
+Handling/partner editor sends:
+
+TEMPLATE: Reviewing - Invite a user to review an article - existing user 
+
+or
+
+TEMPLATE: Reviewing - Invite a user to review an article - user does not have an account yet
+
+or
+
+TEMPLATE: Reviewing - Invite a user to review an article - existing reviewer
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+8) Reviewers review paper
+
+They see the same grid as above, and fill the 
+Phase 2 part of the review template.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+8) Handling/partner editors request major/minor revisions
+
+
+They change the article status choosing:
+
+I suggest to ask for a minor revision.
+I suggest to ask for a major revision.
+
+This trigggers the (customizable) messages
+
+TEMPLATE: Revision requests- Minor revision request
+
+TEMPLATE: Revision requests- Major revision request
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+9) Handling/partner editor suggest acceptance/rejection
+
+They change the article status to one of
+
+I recommend to accept the article
+I suggest to reject the aticle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+10) Editorial Board agrees / does not agree to proposal
+
+The proposal is announced through the "weekly digest".
+Editors answer by leaving comments in the paper's page.
+
+10) EiCs accept / reject paper
+
+EiC chooses oe of the options 
+
+"Accept and proceed to copy editing"
+"Reject this article"
+
+This triggers the messages 
+
+MESSAGE: Paper-final decision: Accepted article - Author copy 
+MESSAGE: Paper-final decision: Accepted article - Editors copy 
+MESSAGE: Paper-final decision: Refused article - Author copy 
+
+I have changed the text of the templates of the messages 
+for the authors.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
