@@ -7,21 +7,21 @@
 
 \centering
   \begin{tikzpicture}[scale=1]
-    \draw[dotted,rounded corners=4mm,fill=grey-5]
+    \draw[dotted,rounded corners=4mm,fill=gray!5]
     ($(-3.5,-1.3)$) rectangle ($(8,-18.6)$) ;
 
-    \node[eic] (sendreviews) at (2,0) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ send reviews to authors with the following procedure:\\ ask for minor revisions\\ impersonate author and reply with\\ ``Reply to the request without any changes''\end{tabular}};
-    \node[eic] (movephase2) at (2,-2.5) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ move to the volume ``Phase 2''\\ add a comment to initiate Phase 2\\ write a message to the editors\end{tabular}};
-    \node[editor] (invitereviewers) at (2,-4.5) {\begin{tabular}{c}\textcolor{blue}{Assigned editors}\\ invite reviewers or allow reviewers to modify rating\\ \textit{option}: ``automatically reinvite reviewers''\end{tabular}};
-    \node[reviewer] (answerinvitation) at (2,-7) {\begin{tabular}{c}\textcolor{blue}{Reviewers}\\ answer the review request \end{tabular}};
-    \node[reviewer] (sendreview) at (2,-9) {\begin{tabular}{c}\textcolor{blue}{Reviewers}\\ send the review \\ by filling Phase 2 of ``rating''\end{tabular}};
-    \node[author] (submitrevised) at (5.8,-12) {\begin{tabular}{c}\textcolor{blue}{Authors}\\ submit revised version\end{tabular}};
-    \node[editor] (recommendation) at (-1,-12) {\begin{tabular}{c}\textcolor{blue}{Editors}\\ decide\end{tabular}};
-    \node[eic] (weeklydigest) at (5.8,-14.5) {\begin{tabular}{c}\textcolor{blue}{Weekly digest}\\ informs editorial board\end{tabular}};
-    \node[editor] (discusses) at (2,-16) {\begin{tabular}{c}\textcolor{blue}{Editorial board}\\ discusses through comments\\ for one week\end{tabular}};
-    \node[eic] (communicatedecision) at (2,-18) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ communicate decision to the authors\end{tabular}};
-    \node[accepting] (accept) at (0,-20) {\ };
-    \node[accepting] (reject) at (4,-20) {\ };
+    \node[action] (sendreviews) at (2,0) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ send reviews to authors with the following procedure:\\ ask for minor revisions\\ impersonate author and reply with\\ ``Reply to the request without any changes''\end{tabular}};
+    \node[action] (movephase2) at (2,-2.5) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ move to the volume ``Phase 2''\\ add a comment to initiate Phase 2\\ write a message to the editors\end{tabular}};
+    \node[action] (invitereviewers) at (2,-4.5) {\begin{tabular}{c}\textcolor{blue}{Assigned editors}\\ invite reviewers or allow reviewers to modify rating\\ \textit{option}: ``automatically reinvite reviewers''\end{tabular}};
+    \node[action] (answerinvitation) at (2,-7) {\begin{tabular}{c}\textcolor{blue}{Reviewers}\\ answer the review request \end{tabular}};
+    \node[action] (sendreview) at (2,-9) {\begin{tabular}{c}\textcolor{blue}{Reviewers}\\ send the review \\ by filling Phase 2 of ``rating''\end{tabular}};
+    \node[action] (submitrevised) at (5.8,-12) {\begin{tabular}{c}\textcolor{blue}{Authors}\\ submit revised version\end{tabular}};
+    \node[action] (recommendation) at (-1,-12) {\begin{tabular}{c}\textcolor{blue}{Editors}\\ decide\end{tabular}};
+    \node[action] (weeklydigest) at (5.8,-14.5) {\begin{tabular}{c}\textcolor{blue}{Weekly digest}\\ informs editorial board\end{tabular}};
+    \node[action] (discusses) at (2,-16) {\begin{tabular}{c}\textcolor{blue}{Editorial board}\\ discusses through comments\\ for one week\end{tabular}};
+    \node[action] (communicatedecision) at (2,-18) {\begin{tabular}{c}\textcolor{blue}{Editors in chief}\\ communicate decision to the authors\end{tabular}};
+    \node (accept) at (0,-20) {\ };
+    \node (reject) at (4,-20) {\ };
     
     \node (unnamed) at (-2,-8) {\begin{tabular}{c}\textcolor{red}{\LARGE{Phase 2}}\end{tabular}};
   
