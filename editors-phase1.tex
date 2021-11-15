@@ -44,7 +44,8 @@
     \draw[->] (indicateroles) edge (declarecoi) ;
     \draw[->] (weeklydigest) edge (registerinterest) ;
     \draw[dashed, ->] (declarecoi) edge node[right] {no conflict} (invitereviewers) ;
-    \draw[dashed, ->] (declarecoi) edge[bend right=80] node[right] {\begin{tabular}{c}conflict\\ \tiny{\color{red} End of article supervision by the editor}\end{tabular}} (assigneditors) ;
+    \draw[dashed, ->] (declarecoi) edge[bend right=80] node[right]
+    {\begin{tabular}{c}conflict\\ \tiny{\color{red} Unassign an editor}\end{tabular}} (assigneditors) ;
     \draw[->] (invitereviewers) edge (announceeditors) ;
     \draw[->] (invitereviewers) edge node[left] {\begin{tabular}{c}\tiny{\color{red} Reviewing - Invite a user}\end{tabular}} (answerreview) ;
     \draw[dashed, ->] (answerreview) edge node[right] {\begin{tabular}{c}\tiny{\color{red} Accepted reviewer invitation}\end{tabular}} (sendreview) ;
