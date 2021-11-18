@@ -25,7 +25,7 @@ Click on the paper to access all information. The link for downloading it is hig
 
 <img src="Paper.svg" alt="Access paper" width="400"/>
 
-To reject: scroll down to the "Article status" tab and use the button highlighted in red
+To reject: scroll down to the "Article status" tab and click on "Reject this article" (highlighted in red)
 
 <img src="Reject.svg" alt="Reject" width="400"/>
 
@@ -98,7 +98,8 @@ presentation. Submissions that pass the first phase are expected to eventually b
 published, sometimes in revised form, unless significant issues are detected or the desired 
 quality of exposition is not achieved.
 
-Best regards, Uri/Javier
+With best regards, 
+Uri / Javier
 Editor in chief
 
 ----------- END OF VERSION FOR HANDLING EDITOR ---------
@@ -136,7 +137,8 @@ to achieve a presentation of high quality. Submissions that qualify for the seco
 phase are expected to eventually be published, usually in revised form, unless 
 significant issues are detected or the desired quality of exposition is not achieved.
 
-Best regards, Uri/Javier
+With best regards, 
+Uri/Javier
 Editor in chief
 
 ----------- END OF VERSION FOR PARTNER EDITOR ------------
@@ -148,7 +150,62 @@ Triggers:
 ### Editors in chief: add a comment to announce the editors
 
 * Access the paper (using Dashboard, as above)
-
 * Scroll down to the "Editors comments" tab and add a comment
 
 <img src="Announce_editors.png" alt="Announce editors" width="400"/>
+
+### Editors in chief: add a comment
+
+Same as above (to announce the editors)
+
+### Editors in chief: communicate decision to the authors
+
+* Access the paper (using Dashboard, as above)
+
+To reject: 
+
+* Scroll down to the "Article status" tab and click on "Reject this article" (highlighted in red)
+
+<img src="Reject.svg" alt="Reject" width="400"/>
+
+To conditionally accept (move to Phase 2) and send the reviews to the authors:
+
+* Scroll down to the "Article status" tab and click on "Ask for a minor revision" (highlighted in red)
+
+<img src="GoPhase2.svg" alt="Go Phase 2" width="400"/>
+
+* Replace the text with the message below 
+
+----------- BEGINNING OF EMAIL ------------
+
+Subject: TheoretiCS #**N**: Phase 1 results
+
+Title: **XX**
+
+Dear Author:
+
+I am very happy to inform you that your paper has 
+successfully passed the first phase of our review process. 
+This means that the Editorial Board considers the results of 
+your paper significant and of lasting value. 
+The referee reports are attached. 
+
+The paper will now undergo a thorough review to check the 
+correctness of the results and the exposition. You are not
+expected to react to the referee reports at this stage.
+
+With best regards,
+Uri / Javier
+Editor-in-Chief
+
+----------- END OF EMAIL ------------
+
+* Scroll up to the "Contributor" tab and click on the third button (highlighted in red) to spoof the identity of the author
+
+<img src="Spoofing.svg" alt="Spoofing" width="400"/>
+
+* Access the paper (using Dashboard, as above)
+* Scroll down to the "Revision requests" tab and click on "Answer this request" and "Answer without any modifications" (highlighted in red)
+
+<img src="AnswerNoRevision.svg" alt="Answer without any modifications" width="400"/>
+
