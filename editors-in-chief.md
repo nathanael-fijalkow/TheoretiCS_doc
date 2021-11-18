@@ -62,7 +62,7 @@ is kept by the system).
 Then, you should send a message to the handling editor. To do this, click on the
 mail icon next to their name in the "Editors" tab (highlighted in red below):
 
-<img src="Editor_mailing.svg" alt="Editor mailing" height="400"/>
+<img src="Editor_mailing.svg" alt="Editor mailing" width="400"/>
 
 Change the subject and fill the message (see picture below), according to the text that follows, filling in the blanks XX, YY, and ZZ, and changing your signature:
  
