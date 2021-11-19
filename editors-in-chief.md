@@ -168,7 +168,7 @@ reviewers is less than two, they will receive a reminder.
 
 You must wait for the assigned handling editor to react and confirm that
 they can handle the submission, first by confirming (when accessing the
-submisison) that they have no conflict of interest with the submission, then by
+submission) that they have no conflict of interest with the submission, then by
 performing their work of inviting reviewers (or indicating that they intend to
 review the article themselves, by assigning themselves or writing a comment to
 that effect). Once the editors have reacted, you can post a comment indicating
@@ -194,13 +194,24 @@ based on the comments.
 ### Editors: take care of the review process for Phase 1
 
 The editors assigned to the article (handling and partner) now take care of
-inviting reviewers, etc. Once they are done, they can propose a decision. For
-phase 1, this is: propose to accept, or propose to reject (no revision
-possible).
+inviting reviewers, etc.
+
+Once the editors have invited reviewers, the paper goes to status "Waiting for
+reviewing". Once they are accepted invitations, the paper goes to status "Under
+review". With these two last statuses, the paper is waiting for actions from the
+reviewers (but the editors should make sure that the reviewers react). Once all
+pending reviews are completed, the paper goes back to status "Reviewed" and it
+is up to the editor to manage it.
+
+Once this is done (the paper has status "Reviewed" and the editors do not wish
+any more reviews), the editors can propose a decision. For phase 1, this is:
+propose to accept, or propose to reject (no revision possible).
 
 Once the editors have proposed a verdict, a weekly digest will invite all
 editors to comment on the article. Once this period has elapsed, the editors
 should communicate the decision to the authors.
+
+During all that process, the paper remains in status "Reviewed".
 
 ### Editors in chief: communicate decision of Phase 1 to the authors
 
@@ -210,7 +221,7 @@ To communicate the decision to the authors:
 
 To reject: 
 
-* Scroll down to the "Article status" tab and and click on "Change article status" then option "Reject this article" (highlighted in red)
+* Scroll down to the "Article status" tab and click on "Change article status" then option "Reject this article" (highlighted in red)
 
 <img src="Reject.svg" alt="Reject" width="400"/>
 
@@ -271,15 +282,21 @@ Editor-in-Chief
 
 <img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="400"/>
 
+The paper now still have status "Reviewed".
+
 ### Editors: take care of the review process for Phase 2
 
 The editors assigned to the article (handling and partner) now take care of
-inviting reviewers, etc. Once they are done, they can propose a decision. 
+inviting reviewers, etc. As previously, the paper goes to status "Waiting for
+reviewing" once reviewers have been invited, goes to "Under review" when
+invitations were accepted, and goes to "Reviewed" once the reviews are completed.
+
+Once this process is finished, the editors can propose a decision. 
 For phase 2, this is: propose to accept, propose to reject, ask for minor revisions, or ask for major revisions.
 
-Revisions are dealt with without intervention from the Editors in chief.
+Revision requests are dealt with directly by the editors, without intervention from the Editors in chief.
 
-Once the editors have proposed a verdict, a weekly digest will invite all
+Once the editors have proposed a final verdict (acceptance or rejection), a weekly digest will invite all
 editors to comment on the article. Once this period has elapsed, the editors
 should communicate the decision to the authors.
 
@@ -294,3 +311,7 @@ To accept or reject:
 * Scroll down to the "Article status" tab and click on "Change article status" to "Accept and proceed to copy editing" or "Reject this article" (both highlighted in red)
 
 <img src="Final_decision.svg" alt="Final decision" width="400"/>
+
+If accepted, the paper then proceeds to the layout editing phase for final
+publication.
+
