@@ -1,6 +1,6 @@
 # TheoretiCS Helper for Editors in Chief
 
-## Nathanaël Fijalkow, Antoine Amarilli
+> Authors: Antoine Amarilli, Nathanaël Fijalkow
 
 This document is intended for TheoretiCS editors in chief to present the workflow of the
 journal, which is a two-phase process. If you want a quick reference of the
@@ -12,12 +12,12 @@ Authors first submit their work on a repository (HAL or arXiv), and then submit
 the paper to the Episciences system.
 
 Authors who do not wish to submit their work to a repository when submitting to
-the journal must get in touch with the Editors-in-Chief directly, so that their
+the journal must get in touch with the Editors in chief directly, so that their
 paper can be handled outside the Episciences system.
 
 Another case where the paper should be directly submitted to the
-Editors-in-Chief is for submissions which are in conflict with one of the
-Editors-in-Chief or managing editors (or directly done by them).
+Editors in chief is for submissions which are in conflict with one of the
+Editors in chief or managing editors (or directly done by them).
 
 ### Editors in chief: quickly evaluate
 
@@ -37,7 +37,7 @@ Click on the paper to access all information. The link for downloading the paper
 
 <img src="Paper.svg" alt="Access paper" width="400"/>
 
-Judge if the publication process should proceed further or not. If not, reject the article: scroll down to the "Article status" tab and click on "Reject this article" (highlighted in red)
+Judge if the publication process should proceed further or not. If not, reject the article: scroll down to the "Article status" tab and click on "Change article status" then option "Reject this article" (highlighted in red)
 
 <img src="Reject.svg" alt="Reject" width="400"/>
 
@@ -64,14 +64,14 @@ mail icon next to their name in the "Editors" tab (highlighted in red below):
 
 <img src="Editor_mailing.svg" alt="Editor mailing" width="400"/>
 
-Change the subject and fill the message (see picture below), according to the text that follows, filling in the blanks XX, YY, and ZZ, and changing your signature:
+Change the subject and fill the message (see picture below), according to the text that follows, filling in the blanks NN, XX, YY, and ZZ, adding the date, and changing your signature:
  
 <img src="Email_to_editors.png" alt="Email to editors" height="400"/>
 
 ```
 --------- VERSION FOR HANDLING EDITOR ------
 
-Subject: TheoretiCS #**N**: Handling editor
+Subject: TheoretiCS #**NN**: Handling editor
 
 TITLE: **XX**
 
@@ -123,7 +123,7 @@ Now, do the same for the partner editor with the following message:
 ```
 ------------ VERSION FOR PARTNER EDITOR ------
 
-Subject: TheoretiCS #**N**: Partner editor
+Subject: TheoretiCS #**NN**: Partner editor
 
 TITLE: **XX**
 
@@ -162,8 +162,7 @@ Editor in chief
 ### Assigned editors: invite reviewers
 
 The editors should now assign reviewers. As long as the number of assigned
-reviewers is less than two, they will receive a reminder. (TODO: configure the
-triggers).
+reviewers is less than two, they will receive a reminder.
 
 ### Editors in chief: add a comment to announce the editors
 
@@ -175,7 +174,8 @@ review the article themselves, by assigning themselves or writing a comment to
 that effect). Once the editors have reacted, you can post a comment indicating
 again who the confirmed handling/partner editors are. To do this:
 * Access the paper (using Dashboard, as above)
-* Scroll down to the "Editors comments" tab and add a comment
+* Scroll down to the "Editors comments" tab and add a comment: "Handling Editor: XXX
+Partner Editor: YYY"
 
 <img src="Announce_editors.png" alt="Announce editors" width="400"/>
 
@@ -188,16 +188,10 @@ changes to "Under review".
 Note that, once an article is submitted, a weekly email digest will invite all
 editors will be invited to comment on the submission. Comments will trigger an
 email notification to the assigned editors (and only them). It is up to the
-assigned editors to contact the editors-in-chief if something unexpected arises
+assigned editors to contact the Editors in chief if something unexpected arises
 based on the comments.
 
-### Editors in chief: add a comment
-
-Same as above (to announce the editors)
-
-(TODO Antoine: I don't understand the point of this section)
-
-### Editors: take care of the review process
+### Editors: take care of the review process for Phase 1
 
 The editors assigned to the article (handling and partner) now take care of
 inviting reviewers, etc. Once they are done, they can propose a decision. For
@@ -208,7 +202,7 @@ Once the editors have proposed a verdict, a weekly digest will invite all
 editors to comment on the article. Once this period has elapsed, the editors
 should communicate the decision to the authors.
 
-### Editors in chief: communicate decision to the authors
+### Editors in chief: communicate decision of Phase 1 to the authors
 
 To communicate the decision to the authors:
 
@@ -216,7 +210,7 @@ To communicate the decision to the authors:
 
 To reject: 
 
-* Scroll down to the "Article status" tab and click on "Reject this article" (highlighted in red)
+* Scroll down to the "Article status" tab and and click on "Change article status" then option "Reject this article" (highlighted in red)
 
 <img src="Reject.svg" alt="Reject" width="400"/>
 
@@ -227,12 +221,12 @@ the process is more complicated:
 
 <img src="GoPhase2.svg" alt="Ask for a revision for phase 2" width="400"/>
 
-* Replace the text with the message below, changing XX in the message.
+* Replace the text with the message below, changing NN, XX, and your signature in the message.
 
 ```
 ----------- BEGINNING OF EMAIL ------------
 
-Subject: TheoretiCS #**N**: Phase 1 results
+Subject: TheoretiCS #**NN**: Phase 1 results
 
 Title: **XX**
 
@@ -272,3 +266,31 @@ Editor-in-Chief
 * Move the paper to phase 2: scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 2":
 
 <img src="GoPhase2b.png" alt="Move to Phase 2" width="400"/>
+
+* Scroll down to the "Editors comments" tab and add a comment: "Moving the paper to Phase 2."
+
+<img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="400"/>
+
+### Editors: take care of the review process for Phase 2
+
+The editors assigned to the article (handling and partner) now take care of
+inviting reviewers, etc. Once they are done, they can propose a decision. 
+For phase 2, this is: propose to accept, propose to reject, ask for minor revisions, or ask for major revisions.
+
+Revisions are dealt with without intervention from the Editors in chief.
+
+Once the editors have proposed a verdict, a weekly digest will invite all
+editors to comment on the article. Once this period has elapsed, the editors
+should communicate the decision to the authors.
+
+### Editors in chief: communicate decision of Phase 2 to the authors
+
+To communicate the decision to the authors:
+
+* Access the paper (using Dashboard, as above)
+
+To accept or reject: 
+
+* Scroll down to the "Article status" tab and click on "Change article status" to "Accept and proceed to copy editing" or "Reject this article" (both highlighted in red)
+
+<img src="Final_decision.svg" alt="Final decision" width="400"/>
