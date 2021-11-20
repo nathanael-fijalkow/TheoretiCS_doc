@@ -6,6 +6,36 @@ This document is intended for TheoretiCS editors in chief to present the workflo
 journal, which is a two-phase process. If you want a quick reference of the
 workflow, have a look at the flowchart for [phase 1](detailed-phase1.pdf) and [phase 2](detailed-phase2.pdf).
 
+## Some terminology and basic actions
+
+A "rating" in Episciences jargon is a review
+
+### Accessing papers
+
+The two most important places are the "Dashboard" and the "Article management" pages.
+
+* The "Dashboard" can be found from the menu on the left.
+The "Journal management" tab includes statistics on all papers visible by you.
+Clicking on "Manage articles" gets you to the "Article management" page.
+The "My account" tab lists all your privileges.
+
+<img src="Dashboard.png" alt="Dashboard" width="400"/>
+
+* The "Article management" page can be accessed either through the Dashboard or directly from the menu on the left: "Journal" expands into a list including "Article management".
+This page lists all of the papers visible by you.
+Click on a title to access the paper's page (the first time, you will have to declare whether you have a conflict of interest or not).
+
+<img src="ArticleManagement.png" alt="Article Management" width="400"/>
+
+### Writing comments
+
+The communication channel for discussing a paper is comments on the paper's page.
+Once you access a paper, scroll down to "Editors comments" to see the comments and write one.
+
+<img src="Comments.png" alt="Comments" width="400"/>
+
+## Following the workflow
+
 ### Authors: submit an article
 
 Authors first submit their work on a repository (HAL or arXiv), and then submit
@@ -21,17 +51,7 @@ Editors in chief or managing editors (or directly done by them).
 
 ### Editors in chief: quickly evaluate
 
-* First access the Dashboard
-
-<img src="Dashboard.png" alt="Dashboard" height="400"/>
-
-* To list recently submitted papers, in the Dashboard, click on in "articles without any reviewer" in the "Journal management" tab (both highlighted in red in the picture below)
-
-<img src="Journal_management.svg" alt="Journal management" width="400"/>
-
-* This leads you to the "Manage articles" page. The papers are listed at the
-  bottom of the page, and have status "Submitted".
-
+* Access the paper (see above)
 * The first task with recently submitted papers is to quickly evaluate them.
 Click on the paper to access all information. The link for downloading the paper is highlighted in red in the picture below.
 
@@ -208,8 +228,8 @@ any more reviews), the editors can propose a decision. For phase 1, this is:
 propose to accept, or propose to reject (no revision possible).
 
 Once the editors have proposed a verdict, a weekly digest will invite all
-editors to comment on the article. Once this period has elapsed, the editors
-should communicate the decision to the authors.
+editors to comment on the article. Once this period has elapsed, the editors in chief
+communicate the decision to the authors.
 
 During all that process, the paper remains in status "Reviewed".
 

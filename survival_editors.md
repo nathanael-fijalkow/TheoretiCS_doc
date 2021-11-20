@@ -8,8 +8,8 @@ workflow, have a look at the flowchart for [phase 1](editors-phase1.pdf) and [ph
 
 ## Where to find help
 
-Email the managing editors: [Antoine Amarilli](mailto:a3nm@a3nm.net) and [Nathanaël Fijalkow](mailto:nathanael.fijalkow@gmail.com)
-or the Editors-in-Chief [Javier Esparza](mailto:esparza@in.tum.de) and [Uri Zwick](mailto:zwick@tau.ac.il)
+Email the [managing editors: Antoine Amarilli and Nathanaël Fijalkow](mailto:managing-editors@theoretics-journal.org)
+or the [Editors in chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
 
 ## Three features to keep in mind
 
