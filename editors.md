@@ -130,7 +130,7 @@ phase 1, keep the text that says "Phase 1", along with the signature. You should
 also set a deadline for the review, both above the "Subject" field, and in the
 text of the email (highlighted in red below).
 
-<img src="Invite_Reviewer_Email_Annotate.svg" alt="Reviewer Invitation Email" width="600"/>
+<img src="Invite_Reviewer_Email_annotate.svg" alt="Reviewer Invitation Email" width="600"/>
 
 Please pick a deadline for the review that allows for the first phase to
 complete within three months: the submission date of paper is accessible on its
@@ -144,7 +144,7 @@ It is normal for the email to contain text "%%INVITATION_URL%%". This will be
 automatically filled by the system when the email is sent.
 
 Once you have invited reviewers, the paper goes to status "Waiting for
-reviewing". Once they are accepted invitations, the paper goes to status "Under
+reviewing". Once they have accepted invitations, the paper goes to status "Under
 review". With these two last statuses, the paper is waiting for actions from the
 reviewers (but you should keep an eye on reviewers, to make sure that they react
 to the invitation, and that they hand in the reviews on time). Once all
@@ -155,7 +155,7 @@ is up to you to propose a decision.
 
 Once the paper has status "Reviewed" and you do not wish any more reviews, you can propose a decision. 
 For phase 1, this is: propose to accept or propose to reject (no revision possible).
-Please do not use the revision mechanism at this stage: it is supported
+Please do not use the revision mechanism at this stage: it is supported by the
 platform, but in the TheoretiCS workflow we want to give authors a definitive
 answer within three months.
 
@@ -168,13 +168,13 @@ During all that process, the paper remains in status "Reviewed" and is in phase 
 
 ### Editors-in-chief: communicate decision of Phase 1 to the authors
 
-The Editors-in-chief send the reviews to the authors and moves the paper to
+The Editors-in-chief send the reviews to the authors and move the paper to
 phase 2. This will always be done by the Editors-in-chief -- do not move a
 paper to phase 2 yourself!
 
 ### Assigned editors: take care of the review process for Phase 2
 
-Once the paper has been moved to phase 2 by the editors and is in status
+Once the paper has been moved to phase 2 by the Editors-in-chief and is in status
 "Reviewed", you can now invite reviewers again.
 
 #### Reinviting a Phase 1 reviewer
@@ -255,7 +255,7 @@ the authors:
 
 <img src="Revision_Message.svg" alt="Revision Message" width="600"/>
 
-Please do not remember to remove the reminder text in caps (highlighted in red
+Please do not forget to remove the reminder text in caps (highlighted in red
 above). You can optionally set a deadline for the revision request.
 
 One important checkbox is "Automatically reinvite reviewers" (at the bottom).

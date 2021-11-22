@@ -234,7 +234,7 @@ The editors assigned to the article (handling and partner) now take care of
 inviting reviewers, etc.
 
 Once the editors have invited reviewers, the paper goes to status "Waiting for
-reviewing". Once they are accepted invitations, the paper goes to status "Under
+reviewing". Once they have accepted invitations, the paper goes to status "Under
 review". With these two last statuses, the paper is waiting for actions from the
 reviewers (but the editors should make sure that the reviewers react). Once all
 pending reviews are completed, the paper goes back to status "Reviewed" and it
