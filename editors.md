@@ -8,7 +8,9 @@ workflow, have a look at the flowchart for [phase 1](editors-phase1.pdf) and [ph
 
 ## Some terminology and basic actions
 
-A "rating" in Episciences jargon is a review
+The journal is hosted by the journal platform Episciences. Some of the
+terminology used by the platform is unusual. For instance, a "rating" on the
+platform is simply a review.
 
 ### Accessing papers
 

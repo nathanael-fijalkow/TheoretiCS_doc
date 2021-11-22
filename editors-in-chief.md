@@ -4,37 +4,52 @@
 
 This document is intended for TheoretiCS editors in chief to present the workflow of the
 journal, which is a two-phase process. If you want a quick reference of the
-workflow, have a look at the flowchart for [phase 1](detailed-phase1.pdf) and [phase 2](detailed-phase2.pdf).
+workflow, have a look at the flowcharts for [phase 1](detailed-phase1.pdf) and [phase 2](detailed-phase2.pdf).
 
 ## Some terminology and basic actions
 
-A "rating" in Episciences jargon is a review
+We first present a terminological note, and information about the two basic
+tasks of accessing papers and writing comments.
+
+### Terminology
+
+The journal is hosted by the journal platform Episciences. Some of the
+terminology used by the platform is unusual. For instance, a "rating" on the
+platform is simply a review.
 
 ### Accessing papers
 
 The two most important places are the "Dashboard" and the "Article management" pages.
 
 * The "Dashboard" can be found from the menu on the left.
-The "Journal management" tab includes statistics on all papers visible by you.
+The "Journal management" tab on the Dashboard includes statistics on all papers visible by you.
 Clicking on "Manage articles" gets you to the "Article management" page.
 The "My account" tab lists all your privileges.
 
-<img src="Dashboard.png" alt="Dashboard" width="400"/>
+<img src="Dashboard.png" alt="Dashboard" width="600"/>
 
 * The "Article management" page can be accessed either through the Dashboard or directly from the menu on the left: "Journal" expands into a list including "Article management".
 This page lists all of the papers visible by you.
-Click on a title to access the paper's page (the first time, you will have to declare whether you have a conflict of interest or not).
+Click on a title to access the paper's page. The first time you access a paper, you will have to declare whether you have a conflict of interest or not.
 
-<img src="ArticleManagement.png" alt="Article Management" width="400"/>
+<img src="ArticleManagement.png" alt="Article Management" width="600"/>
 
 ### Writing comments
 
-The communication channel for discussing a paper is comments on the paper's page.
+You can discuss a paper with fellow editors by leaving comments on the paper's page.
 Once you access a paper, scroll down to "Editors comments" to see the comments and write one.
 
-<img src="Comments.png" alt="Comments" width="400"/>
+<img src="Comments.png" alt="Comments" width="600"/>
+
+Posted comments are notified by email to the editors assigned to the paper.
+
+Please avoid discussing papers outside of the Episciences system -- it's better
+if all information about papers can be centralized on the platform where all
+editors and editors-in-chief can access it.
 
 ## Following the workflow
+
+We now present a detailed walkthrough of the flowcharts for [phase 1](detailed-phase1.pdf) and [phase 2](detailed-phase2.pdf).
 
 ### Authors: submit an article
 
@@ -55,18 +70,18 @@ Editors in chief or managing editors (or directly done by them).
 * The first task with recently submitted papers is to quickly evaluate them.
 Click on the paper to access all information. The link for downloading the paper is highlighted in red in the picture below.
 
-<img src="Paper.svg" alt="Access paper" width="400"/>
+<img src="Paper.svg" alt="Access paper" width="600"/>
 
 Judge if the publication process should proceed further or not. If not, reject the article: scroll down to the "Article status" tab and click on "Change article status" then option "Reject this article" (highlighted in red)
 
-<img src="Reject.svg" alt="Reject" width="400"/>
+<img src="Reject.svg" alt="Reject" width="600"/>
 
 ### Editors in chief: assign to the volume "Phase 1"
 
 If the publication process should continue, the first task is to assign
 the article to Phase 1. To do this, scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 1"
 
-<img src="GoPhase1.png" alt="Go to Phase 1" width="400"/>
+<img src="GoPhase1.png" alt="Go to Phase 1" width="600"/>
 
 ### Editors in chief: assign handling and partner editors
 
@@ -75,7 +90,7 @@ At this point there is no distinction between Handling and Partner Editor, but
 try to assign first the handling editor and then the partner editor (the order
 is kept by the system).
 
-<img src="Assign_editors.png" alt="Assign Editors" width="400"/>
+<img src="Assign_editors.png" alt="Assign Editors" width="600"/>
 
 ### Editors in chief: write messages to the editors to indicate roles (handling / partner)
 
@@ -197,7 +212,7 @@ again who the confirmed handling/partner editors are. To do this:
 * Scroll down to the "Editors comments" tab and add a comment: "Handling Editor: XXX
 Partner Editor: YYY"
 
-<img src="Announce_editors.png" alt="Announce editors" width="400"/>
+<img src="Announce_editors.png" alt="Announce editors" width="600"/>
 
 If an editor has a conflict of interest with the paper, or decides not to handle
 the paper, they will get unassigned from the article, and you will receive an
@@ -206,7 +221,7 @@ reminders (see below). If editors do invite reviewers, the article status
 changes to "Under review".
 
 Note that, once an article is submitted, a weekly email digest will invite all
-editors will be invited to comment on the submission. Comments will trigger an
+editors to comment on the submission. Comments will trigger an
 email notification to the assigned editors (and only them). It is up to the
 assigned editors to contact the Editors in chief if something unexpected arises
 based on the comments.
@@ -243,14 +258,14 @@ To reject:
 
 * Scroll down to the "Article status" tab and click on "Change article status" then option "Reject this article" (highlighted in red)
 
-<img src="Reject.svg" alt="Reject" width="400"/>
+<img src="Reject.svg" alt="Reject" width="600"/>
 
 To conditionally accept (move to Phase 2) and send the reviews to the authors,
 the process is more complicated:
 
 * Scroll down to the "Article status" tab and click on "Ask for a minor revision" (highlighted in red)
 
-<img src="GoPhase2.svg" alt="Ask for a revision for phase 2" width="400"/>
+<img src="GoPhase2.svg" alt="Ask for a revision for phase 2" width="600"/>
 
 * Replace the text with the message below, changing NN, XX, and your signature in the message.
 
@@ -282,12 +297,12 @@ Editor-in-Chief
 
 * Scroll up to the "Contributor" tab and click on the third button (highlighted in red) to spoof the identity of the author
 
-<img src="Spoofing.svg" alt="Spoofing" width="400"/>
+<img src="Spoofing.svg" alt="Spoofing" width="600"/>
 
 * Access the paper (using Dashboard, as above)
 * Scroll down to the "Revision requests" tab and click on "Answer this request" and "Answer without any modifications" (highlighted in red)
 
-<img src="AnswerNoRevision.svg" alt="Answer without any modifications" width="400"/>
+<img src="AnswerNoRevision.svg" alt="Answer without any modifications" width="600"/>
 
 * Validate the form with a dummy message, e.g., "The article has been accepted
   to phase 2, the assigned editors should now invite phase 2 reviewers"
@@ -296,11 +311,11 @@ Editor-in-Chief
   to do this with the browser history)
 * Move the paper to phase 2: scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 2":
 
-<img src="GoPhase2b.png" alt="Move to Phase 2" width="400"/>
+<img src="GoPhase2b.png" alt="Move to Phase 2" width="600"/>
 
 * Scroll down to the "Editors comments" tab and add a comment: "Moving the paper to Phase 2."
 
-<img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="400"/>
+<img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="600"/>
 
 The paper now still have status "Reviewed".
 
@@ -330,8 +345,13 @@ To accept or reject:
 
 * Scroll down to the "Article status" tab and click on "Change article status" to "Accept and proceed to copy editing" or "Reject this article" (both highlighted in red)
 
-<img src="Final_decision.svg" alt="Final decision" width="400"/>
+<img src="Final_decision.svg" alt="Final decision" width="600"/>
 
 If accepted, the paper then proceeds to the layout editing phase for final
 publication.
+
+## Useful links
+
+* General-purpose [Episciences documentation](https://doc.episciences.org/en/welcome/).
+* [Issue tracker for Episciences](https://github.com/CCSDForge/episciences/issues)
 
