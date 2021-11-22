@@ -2,7 +2,7 @@
 
 > Authors: Antoine Amarilli, Nathanaël Fijalkow
 
-This document is intended for TheoretiCS Editors-in-chief to present the workflow of the
+This document is intended for TheoretiCS editors-in-chief to present the workflow of the
 journal, which is a two-phase process. If you want a quick reference of the
 workflow, have a look at the flowcharts for [phase 1](detailed-phase1.pdf) and [phase 2](detailed-phase2.pdf).
 
@@ -59,12 +59,12 @@ Authors first submit their work on a repository (HAL or arXiv), and then submit
 the paper to the Episciences system.
 
 Authors who do not wish to submit their work to a repository when submitting to
-the journal must get in touch with the Editors-in-chief directly, so that their
+the journal must get in touch with the editors-in-chief directly, so that their
 paper can be handled outside the Episciences system.
 
 Another case where the paper should be directly submitted to the
-Editors-in-chief is for submissions which are in conflict with one of the
-Editors-in-chief or managing editors (or directly done by them).
+editors-in-chief is for submissions which are in conflict with one of the
+editors-in-chief or managing editors (or directly done by them).
 
 ### Editors-in-chief: quickly evaluate
 
@@ -150,7 +150,7 @@ quality of exposition is not achieved.
 
 With best regards, 
 Uri / Javier
-Editor in chief
+Editor-in-chief
 
 ----------- END OF VERSION FOR HANDLING EDITOR ---------
 ```
@@ -191,7 +191,7 @@ significant issues are detected or the desired quality of exposition is not achi
 
 With best regards, 
 Uri/Javier
-Editor in chief
+Editor-in-chief
 
 ----------- END OF VERSION FOR PARTNER EDITOR ------------
 ```
@@ -225,7 +225,7 @@ changes to "Under review".
 Note that, once an article is submitted, a weekly email digest will invite all
 editors to comment on the submission. Comments will trigger an
 email notification to the assigned editors (and only them). It is up to the
-assigned editors to contact the Editors-in-chief if something unexpected arises
+assigned editors to contact the editors-in-chief if something unexpected arises
 based on the comments.
 
 ### Editors: take care of the review process for Phase 1
@@ -245,7 +245,7 @@ any more reviews), the editors can propose a decision. For phase 1, this is:
 propose to accept, or propose to reject (no revision possible).
 
 Once the editors have proposed a verdict, a weekly digest will invite all
-editors to comment on the article. Once this period has elapsed, the Editors-in-chief
+editors to comment on the article. Once this period has elapsed, the editors-in-chief
 communicate the decision to the authors.
 
 During all that process, the paper remains in status "Reviewed".
@@ -331,7 +331,7 @@ invitations were accepted, and goes to "Reviewed" once the reviews are completed
 Once this process is finished, the editors can propose a decision. 
 For phase 2, this is: propose to accept, propose to reject, ask for minor revisions, or ask for major revisions.
 
-Revision requests are dealt with directly by the editors, without intervention from the Editors-in-chief.
+Revision requests are dealt with directly by the editors, without intervention from the editors-in-chief.
 
 Once the editors have proposed a final verdict (acceptance or rejection), a weekly digest will invite all
 editors to comment on the article. Once this period has elapsed, the editors

@@ -9,7 +9,7 @@ workflow, have a look at the flowchart for [phase 1](editors-phase1.pdf) and [ph
 ## Where to find help
 
 Email the [managing editors: Antoine Amarilli and Nathanaël Fijalkow](mailto:managing-editors@theoretics-journal.org)
-or the [Editors in chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
+or the [editors-in-chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
 
 ## Three features to keep in mind
 
@@ -35,7 +35,7 @@ Unless they have a [conflict of interest](https://theoretics.episciences.org/pag
 comment on them, support the decisions proposed by the editors assigned to a paper, or raise objections.
 In particular, editors do not directly accept/reject papers, they propose a decision 
 to the Editorial Board instead. Acceptance and rejection decisions are always
-implemented by the Editors-in-chief following the outcome of the discussion,
+implemented by the editors-in-chief following the outcome of the discussion,
 they are not implemented by editors directly.
 
 ### Two editors per paper

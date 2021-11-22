@@ -68,21 +68,21 @@ Authors first submit their work on a repository (HAL or arXiv), and then submit
 the paper to the Episciences system.
 
 Authors who do not wish to submit their work to a repository when submitting to
-the journal must get in touch with the Editors-in-chief directly, so that their
+the journal must get in touch with the editors-in-chief directly, so that their
 paper can be handled outside the Episciences system.
 
 Another case where the paper should be directly submitted to the
-Editors-in-chief is for submissions which are in conflict with one of the
-Editors-in-chief or managing editors (or directly done by them).
+editors-in-chief is for submissions which are in conflict with one of the
+editors-in-chief or managing editors (or directly done by them).
 
 ### Editors-in-chief: quickly evaluate
 
-The Editors-in-chief can decide to reject the paper directly. If they do not,
+The editors-in-chief can decide to reject the paper directly. If they do not,
 the paper starts in Phase 1.
 
 ### Editors-in-chief: assign handling and partner editors
 
-The Editors-in-chief assign two editors: handling and partner.
+The editors-in-chief assign two editors: handling and partner.
 
 ### Editors: declare (absence of) conflict of interest
 
@@ -99,10 +99,10 @@ unassigned.
 To know what constitutes a conflict of interest, please refer to the [conflict
 of interest
 policy](https://theoretics.episciences.org/page/conflict-of-interest-policy). If
-you are still unsure, please contact the Editors-in-chief.
+you are still unsure, please contact the editors-in-chief.
 
 If you mistakenly indicate that you have a conflict of interest with a
-submission, you need to get in touch with the Editors-in-chief, who will write
+submission, you need to get in touch with the editors-in-chief, who will write
 to the Episciences administrators to reset this.
 
 ### Assigned editors: invite reviewers
@@ -136,7 +136,7 @@ Please pick a deadline for the review that allows for the first phase to
 complete within three months: the submission date of paper is accessible on its
 page (look for "Submitted on"). Please keep in mind that once all reviews are received
 you need to make a decision on the paper, all editors should have one week of
-time to discuss it, and then the Editors-in-chief will have to implement it. For
+time to discuss it, and then the editors-in-chief will have to implement it. For
 this reason, please keep a safety buffer of at least two weeks before the three
 months deadline.
 
@@ -162,19 +162,19 @@ answer within three months.
 <img src="DecisionPhase1.png" alt="Decision Phase 1" width="600"/>
 
 Once you have proposed a decision, a weekly digest will invite all editors to comment on the article. 
-Once this period has elapsed, the Editors-in-chief communicate the decision to the authors.
+Once this period has elapsed, the editors-in-chief communicate the decision to the authors.
 
 During all that process, the paper remains in status "Reviewed" and is in phase 1.
 
 ### Editors-in-chief: communicate decision of Phase 1 to the authors
 
-The Editors-in-chief send the reviews to the authors and move the paper to
-phase 2. This will always be done by the Editors-in-chief -- do not move a
+The editors-in-chief send the reviews to the authors and move the paper to
+phase 2. This will always be done by the editors-in-chief -- do not move a
 paper to phase 2 yourself!
 
 ### Assigned editors: take care of the review process for Phase 2
 
-Once the paper has been moved to phase 2 by the Editors-in-chief and is in status
+Once the paper has been moved to phase 2 by the editors-in-chief and is in status
 "Reviewed", you can now invite reviewers again.
 
 #### Reinviting a Phase 1 reviewer
@@ -229,7 +229,7 @@ notified automatically when you click "Allow to edit the reviewing". Also, the
 Episciences system does not manage a deadline or reminders once you have allowed
 to edit the reviewing. Once the reviewer confirms acceptance of the invitation,
 *please post a comment* on the article page to clarify that they accepted and
-what the deadline is, so other editors and the Editors-in-Chief can see it.
+what the deadline is, so other editors and the editors-in-chief can see it.
 
 #### Inviting a Phase 2 reviewer
 
@@ -244,7 +244,7 @@ As previously, the paper goes to status "Waiting for reviewing" once reviewers h
 Once this process is finished, you can propose a decision. 
 For phase 2, this is: propose to accept, propose to reject, ask for minor revisions, or ask for major revisions.
 
-Revision requests are dealt with directly by you, without intervention from the Editors-in-chief.
+Revision requests are dealt with directly by you, without intervention from the editors-in-chief.
 
 ### Revision requests
 
@@ -284,12 +284,12 @@ reviewers manually.
 ### Final verdict
 
 Once you have proposed a final verdict (acceptance or rejection), a weekly digest will invite all
-editors to comment on the article. Once this period has elapsed, the Editors-in-chief communicate the decision to the authors.
+editors to comment on the article. Once this period has elapsed, the editors-in-chief communicate the decision to the authors.
 
 ## Getting help
 
 Email the [managing editors: Antoine Amarilli and Nathanaël Fijalkow](mailto:managing-editors@theoretics-journal.org)
-or the [Editors in chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
+or the [editors-in-chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
 
 ## Useful links
 
