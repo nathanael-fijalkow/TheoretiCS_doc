@@ -1,8 +1,8 @@
-# TheoretiCS Helper for Editors in Chief
+# TheoretiCS Helper for Editors-in-chief
 
 > Authors: Antoine Amarilli, Nathanaël Fijalkow
 
-This document is intended for TheoretiCS editors in chief to present the workflow of the
+This document is intended for TheoretiCS Editors-in-chief to present the workflow of the
 journal, which is a two-phase process. If you want a quick reference of the
 workflow, have a look at the flowcharts for [phase 1](detailed-phase1.pdf) and [phase 2](detailed-phase2.pdf).
 
@@ -22,8 +22,10 @@ platform is simply a review.
 The two most important places are the "Dashboard" and the "Article management" pages.
 
 * The "Dashboard" can be found from the menu on the left.
-The "Journal management" tab on the Dashboard includes statistics on all papers visible by you.
+The "Journal management" tab includes statistics on all papers visible by you.
 Clicking on "Manage articles" gets you to the "Article management" page.
+The "My assigned papers" tab contains papers you were assigned to as editor.
+The "My submissions" tab contains papers you submitted as author.
 The "My account" tab lists all your privileges.
 
 <img src="Dashboard.png" alt="Dashboard" width="600"/>
@@ -49,7 +51,7 @@ editors and editors-in-chief can access it.
 
 ## Following the workflow
 
-We now present a detailed walkthrough of the flowcharts for [phase 1](detailed-phase1.pdf) and [phase 2](detailed-phase2.pdf).
+We now give a step-by-step explanation of the flowcharts for [phase 1](detailed-phase1.pdf) and [phase 2](detailed-phase2.pdf).
 
 ### Authors: submit an article
 
@@ -57,14 +59,14 @@ Authors first submit their work on a repository (HAL or arXiv), and then submit
 the paper to the Episciences system.
 
 Authors who do not wish to submit their work to a repository when submitting to
-the journal must get in touch with the Editors in chief directly, so that their
+the journal must get in touch with the Editors-in-chief directly, so that their
 paper can be handled outside the Episciences system.
 
 Another case where the paper should be directly submitted to the
-Editors in chief is for submissions which are in conflict with one of the
-Editors in chief or managing editors (or directly done by them).
+Editors-in-chief is for submissions which are in conflict with one of the
+Editors-in-chief or managing editors (or directly done by them).
 
-### Editors in chief: quickly evaluate
+### Editors-in-chief: quickly evaluate
 
 * Access the paper (see above)
 * The first task with recently submitted papers is to quickly evaluate them.
@@ -76,14 +78,14 @@ Judge if the publication process should proceed further or not. If not, reject t
 
 <img src="Reject.svg" alt="Reject" width="600"/>
 
-### Editors in chief: assign to the volume "Phase 1"
+### Editors-in-chief: assign to the volume "Phase 1"
 
 If the publication process should continue, the first task is to assign
 the article to Phase 1. To do this, scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 1"
 
 <img src="GoPhase1.png" alt="Go to Phase 1" width="600"/>
 
-### Editors in chief: assign handling and partner editors
+### Editors-in-chief: assign handling and partner editors
 
 The second task is to Scroll down to the "Editors" tab and click on "Assign editors" to select two editors.
 At this point there is no distinction between Handling and Partner Editor, but
@@ -92,16 +94,16 @@ is kept by the system).
 
 <img src="Assign_editors.png" alt="Assign Editors" width="600"/>
 
-### Editors in chief: write messages to the editors to indicate roles (handling / partner)
+### Editors-in-chief: write messages to the editors to indicate roles (handling / partner)
 
 Then, you should send a message to the handling editor. To do this, click on the
 mail icon next to their name in the "Editors" tab (highlighted in red below):
 
-<img src="Editor_mailing.svg" alt="Editor mailing" width="400"/>
+<img src="Editor_mailing.svg" alt="Editor mailing" width="600"/>
 
 Change the subject and fill the message (see picture below), according to the text that follows, filling in the blanks NN, XX, YY, and ZZ, adding the date, and changing your signature:
  
-<img src="Email_to_editors.png" alt="Email to editors" height="400"/>
+<img src="Email_to_editors.png" alt="Email to editors" height="600"/>
 
 ```
 --------- VERSION FOR HANDLING EDITOR ------
@@ -199,7 +201,7 @@ Editor in chief
 The editors should now assign reviewers. As long as the number of assigned
 reviewers is less than two, they will receive a reminder.
 
-### Editors in chief: add a comment to announce the editors
+### Editors-in-chief: add a comment to announce the editors
 
 You must wait for the assigned handling editor to react and confirm that
 they can handle the submission, first by confirming (when accessing the
@@ -223,7 +225,7 @@ changes to "Under review".
 Note that, once an article is submitted, a weekly email digest will invite all
 editors to comment on the submission. Comments will trigger an
 email notification to the assigned editors (and only them). It is up to the
-assigned editors to contact the Editors in chief if something unexpected arises
+assigned editors to contact the Editors-in-chief if something unexpected arises
 based on the comments.
 
 ### Editors: take care of the review process for Phase 1
@@ -243,12 +245,12 @@ any more reviews), the editors can propose a decision. For phase 1, this is:
 propose to accept, or propose to reject (no revision possible).
 
 Once the editors have proposed a verdict, a weekly digest will invite all
-editors to comment on the article. Once this period has elapsed, the editors in chief
+editors to comment on the article. Once this period has elapsed, the Editors-in-chief
 communicate the decision to the authors.
 
 During all that process, the paper remains in status "Reviewed".
 
-### Editors in chief: communicate decision of Phase 1 to the authors
+### Editors-in-chief: communicate decision of Phase 1 to the authors
 
 To communicate the decision to the authors:
 
@@ -329,13 +331,13 @@ invitations were accepted, and goes to "Reviewed" once the reviews are completed
 Once this process is finished, the editors can propose a decision. 
 For phase 2, this is: propose to accept, propose to reject, ask for minor revisions, or ask for major revisions.
 
-Revision requests are dealt with directly by the editors, without intervention from the Editors in chief.
+Revision requests are dealt with directly by the editors, without intervention from the Editors-in-chief.
 
 Once the editors have proposed a final verdict (acceptance or rejection), a weekly digest will invite all
 editors to comment on the article. Once this period has elapsed, the editors
 should communicate the decision to the authors.
 
-### Editors in chief: communicate decision of Phase 2 to the authors
+### Editors-in-chief: communicate decision of Phase 2 to the authors
 
 To communicate the decision to the authors:
 
