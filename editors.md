@@ -107,14 +107,26 @@ to the Episciences administrators to reset this.
 
 ### Assigned editors: invite reviewers
 
-You should now assign reviewers. As long as the number of assigned reviewers is less than two, you will receive a reminder.
+You should now assign reviewers. Each paper should receive at least two reviews,
+which can be from external reviewers or from the handling/partner editors themselves.
+Further, you are free as handling/partner editor to request more reviews than
+that. Both handling and partner editors can assign reviewers: they are expected
+to coordinate, with the handling editor taking the lead. As long as the number
+of assigned reviewers is less than two, you will receive a reminder.
 
 Scroll down to "Reviewers" and click on "Invite a reviewer" to invite a reviewer,
 or on "Review this article" if you plan on reviewing it yourself.
 
 <img src="InviteReviewer.png" alt="Invite reviewers" width="600"/>
 
-There are two possibilities:
+Please select external reviewers as usual, e.g., making sure that the reviewer
+has no
+[conflict of
+interest](https://theoretics.episciences.org/page/conflict-of-interest-policy)
+relative to the authors (not only the corresponding authors but all authors of
+the article).
+
+To invite a reviewer, there are two possibilities:
 * Either the reviewer has already reviewed for TheoretiCS. If so, you can simply
   select them from the list: "Filter reviewers"
 <img src="SearchReviewer.png" alt="Search reviewer" width="600"/>
@@ -132,13 +144,9 @@ text of the email (highlighted in red below).
 
 <img src="Invite_Reviewer_Email_annotate.svg" alt="Reviewer Invitation Email" width="600"/>
 
-Please pick a deadline for the review that allows for the first phase to
-complete within three months: the submission date of paper is accessible on its
-page (look for "Submitted on"). Please keep in mind that once all reviews are received
-you need to make a decision on the paper, all editors should have one week of
-time to discuss it, and then the editors-in-chief will have to implement it. For
-this reason, please keep a safety buffer of at least two weeks before the three
-months deadline.
+When picking a deadline for the review, please keep in mind your own deadline
+for giving a recommendation on the paper (this is indicated as a comment on teh
+article).
 
 It is normal for the email to contain text "%%INVITATION_URL%%". This will be
 automatically filled by the system when the email is sent.

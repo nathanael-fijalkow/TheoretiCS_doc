@@ -143,6 +143,12 @@ I would like to ask you to conclude this first phase before
 
 ** Date (about current date + 10 weeks) **
 
+Our committment to authors is that they must receive the verdict of the first
+phase (i.e., acceptance to the second phase, or rejection) within 3 months,
+including discussion with the board. So please remember that this is a firm
+deadline to submit your recommendation, evaluating the paper yourself if
+necessary.
+
 In the second phase, possibly different reviewers check the validity of the results and the
 presentation. Submissions that pass the first phase are expected to eventually be 
 published, sometimes in revised form, unless significant issues are detected or the desired 
@@ -184,6 +190,12 @@ I have asked the handling editor to conclude this phase before
 
 ** Date (about current date + 10 weeks) **
 
+Our committment to authors is that they must receive the verdict of the first
+phase (i.e., acceptance to the second phase, or rejection) within 3 months,
+including discussion with the board. So please remember that this is a firm
+deadline to submit your recommendation, evaluating the paper yourself if
+necessary.
+
 In the second phase, reviewers check the validity of the results and make suggestions 
 to achieve a presentation of high quality. Submissions that qualify for the second 
 phase are expected to eventually be published, usually in revised form, unless 
@@ -212,7 +224,8 @@ that effect). Once the editors have reacted, you can post a comment indicating
 again who the confirmed handling/partner editors are. To do this:
 * Access the paper (using Dashboard, as above)
 * Scroll down to the "Editors comments" tab and add a comment: "Handling Editor: XXX
-Partner Editor: YYY"
+Partner Editor: YYY
+Deadline for recommendation: ZZZ"
 
 <img src="Announce_editors.png" alt="Announce editors" width="600"/>
 
@@ -239,6 +252,11 @@ review". With these two last statuses, the paper is waiting for actions from the
 reviewers (but the editors should make sure that the reviewers react). Once all
 pending reviews are completed, the paper goes back to status "Reviewed" and it
 is up to the editor to manage it.
+
+The editors-in-chief should keep an eye on papers assigned to editors, reminding
+them to invite reviewers ("Submitted"), to check acceptance of reviewer invitations
+("Waiting for reviewing"), to ensure that their reviewers complete their work
+in time ("Under review"), or to make a recommendation ("Reviewed").
 
 Once this is done (the paper has status "Reviewed" and the editors do not wish
 any more reviews), the editors can propose a decision. For phase 1, this is:
