@@ -105,108 +105,73 @@ Change the subject and fill the message (see picture below), according to the te
  
 <img src="Email_to_editors.png" alt="Email to editors" height="600"/>
 
-```
+<div style="max-width: 500px; font-family: monospace">
 --------- VERSION FOR HANDLING EDITOR ------
 
-Subject: TheoretiCS #**NN**: Handling editor
+Subject: TheoretiCS #NN: Handling editor
 
-TITLE: **XX**
+TITLE: XX
 
-Dear **YY**:
+Dear YY:
 
 I would like you to act as handling editor of the above submission to TheoretiCS. 
 
-Please login to your editor accounts to start the review process.
-Click on "Dashboard" and then on the title of the paper to access
-the paper's page.
+Please login to your editor accounts to start the review process. Click on "Dashboard" and then on the title of the paper to access the paper's page.
 
-Your partner editor is **ZZ**. You can discuss any action with your partner editor,
-and the two of you must agree on your final recommendation (see below).
+Your partner editor is ZZ. You can discuss any action with your partner editor, and the two of you must agree on your final recommendation (see below).
 
-Please communicate with your partner editor through the system if at all
-possible, either by writing comments in the paper's page or by
-email (click on the mail icon to the right of the name of the editor in the
-paper's page). Your partner editor receives the same emails as you from the system.
+Please communicate with your partner editor through the system if at all possible, either by writing comments in the paper's page or by email (click on the mail icon to the right of the name of the editor in the paper's page). Your partner editor receives the same emails as you from the system.
 
-If you haven't assigned at least two reviewers to the paper within two weeks you 
-will start to get automatic reminders. Notice that you can 
-assign yourself and/or your partner editor.
+If you haven't assigned at least two reviewers to the paper within two weeks you will start to get automatic reminders. Notice that you can assign yourself and/or your partner editor.
 
-Recall that TheoretiCS follows a two-phase reviewing process. 
-In the first phase, you and your partner editor, usually after seeking the opinion 
-of reviewers, agree on a recommendation: Accept for the second phase, or reject.
-The main criteria are the significance of the results, the belief that the exposition 
-is of high quality or will be so after revision, and the availability of expert reviewers. 
-The paper moves to the second phase after approval by the Editorial Board. 
+Recall that TheoretiCS follows a two-phase reviewing process. In the first phase, you and your partner editor, usually after seeking the opinion of reviewers, agree on a recommendation: Accept for the second phase, or reject. The main criteria are the significance of the results, the belief that the exposition is of high quality or will be so after revision, and the availability of expert reviewers. The paper moves to the second phase after approval by the Editorial Board. 
 
 I would like to ask you to conclude this first phase before
 
-** Date (about current date + 10 weeks) **
+  Date (about current date + 10 weeks) 
 
-Our committment to authors is that they must receive the verdict of the first
-phase (i.e., acceptance to the second phase, or rejection) within 3 months,
-including discussion with the board. So please remember that this is a firm
-deadline to submit your recommendation, evaluating the paper yourself if
-necessary.
+Our committment to authors is that they must receive the verdict of the first phase (i.e., acceptance to the second phase, or rejection) within 3 months, including discussion with the board. So please remember that this is a firm deadline to submit your recommendation, evaluating the paper yourself if necessary.
 
-In the second phase, possibly different reviewers check the validity of the results and the
-presentation. Submissions that pass the first phase are expected to eventually be 
-published, sometimes in revised form, unless significant issues are detected or the desired 
-quality of exposition is not achieved.
+In the second phase, possibly different reviewers check the validity of the results and the presentation. Submissions that pass the first phase are expected to eventually be published, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.
 
 With best regards, 
 Uri / Javier
 Editor-in-chief
 
 ----------- END OF VERSION FOR HANDLING EDITOR ---------
-```
+</div>
 
 Now, do the same for the partner editor with the following message:
 
-```
+<div style="max-width: 500px; font-family: monospace">
 ------------ VERSION FOR PARTNER EDITOR ------
 
-Subject: TheoretiCS #**NN**: Partner editor
+Subject: TheoretiCS #NN: Partner editor
 
-TITLE: **XX**
+TITLE: XX
 
-Dear **YY**:
+Dear YY:
 
-I would like you to act as partner editor of the above submission to TheoretiCS. 
-The handling editor, **ZZ**, is in charge of conducting the review process,
-in collaboration with you, and you must make a joint recommendation. 
+I would like you to act as partner editor of the above submission to TheoretiCS. The handling editor, ZZ, is in charge of conducting the review process, in collaboration with you, and you must make a joint recommendation. 
 
-To access the paper, log into your editor account,
-click on "Dashboard", and then on the title of the paper.
+To access the paper, log into your editor account, click on "Dashboard", and then on the title of the paper.
 
-Recall that TheoretiCS follows a two-phase reviewing process. 
-In the first phase, you and your partner editor, usually after seeking the opinion 
-of reviewers, agree on a recommendation: Accept for the second phase, or reject.
-The main criteria are the significance of the results, the belief that the exposition 
-is of high quality or will be so after revision, and the availability of expert reviewers. 
-The paper moves to the second phase after approval by the Editorial Board.
+Recall that TheoretiCS follows a two-phase reviewing process. In the first phase, you and your partner editor, usually after seeking the opinion of reviewers, agree on a recommendation: Accept for the second phase, or reject. The main criteria are the significance of the results, the belief that the exposition is of high quality or will be so after revision, and the availability of expert reviewers. The paper moves to the second phase after approval by the Editorial Board.
 
 I have asked the handling editor to conclude this phase before
 
-** Date (about current date + 10 weeks) **
+  Date (about current date + 10 weeks) 
 
-Our committment to authors is that they must receive the verdict of the first
-phase (i.e., acceptance to the second phase, or rejection) within 3 months,
-including discussion with the board. So please remember that this is a firm
-deadline to submit your recommendation, evaluating the paper yourself if
-necessary.
+Our committment to authors is that they must receive the verdict of the first phase (i.e., acceptance to the second phase, or rejection) within 3 months, including discussion with the board. So please remember that this is a firm deadline to submit your recommendation, evaluating the paper yourself if necessary.
 
-In the second phase, reviewers check the validity of the results and make suggestions 
-to achieve a presentation of high quality. Submissions that qualify for the second 
-phase are expected to eventually be published, usually in revised form, unless 
-significant issues are detected or the desired quality of exposition is not achieved.
+In the second phase, reviewers check the validity of the results and make suggestions to achieve a presentation of high quality. Submissions that qualify for the second phase are expected to eventually be published, usually in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.
 
 With best regards, 
 Uri/Javier
 Editor-in-chief
 
 ----------- END OF VERSION FOR PARTNER EDITOR ------------
-```
+</div>
 
 ### Assigned editors: invite reviewers
 
@@ -289,31 +254,25 @@ the process is more complicated:
 
 * Replace the text with the message below, changing NN, XX, and your signature in the message.
 
-```
+<div style="max-width: 500px; font-family: monospace">
 ----------- BEGINNING OF EMAIL ------------
 
-Subject: TheoretiCS #**NN**: Phase 1 results
+Subject: TheoretiCS #NN: Phase 1 results
 
-Title: **XX**
+Title: XX
 
 Dear Author:
 
-I am very happy to inform you that your paper has 
-successfully passed the first phase of our review process. 
-This means that the Editorial Board considers the results of 
-your paper significant and of lasting value. 
-The referee reports are attached. 
+I am very happy to inform you that your paper has successfully passed the first phase of our review process. This means that the Editorial Board considers the results of your paper significant and of lasting value. The referee reports are attached. 
 
-The paper will now undergo a thorough review to check the 
-correctness of the results and the exposition. You are not
-expected to react to the referee reports at this stage.
+The paper will now undergo a thorough review to check the correctness of the results and the exposition. You are not expected to react to the referee reports at this stage.
 
 With best regards,
 Uri / Javier
 Editor-in-Chief
 
 ----------- END OF EMAIL ------------
-```
+</div>
 
 * Scroll up to the "Contributor" tab and click on the third button (highlighted in red) to spoof the identity of the author
 
