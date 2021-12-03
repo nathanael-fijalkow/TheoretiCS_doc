@@ -203,22 +203,22 @@ reviewer".
 
 Here is a template that you can use, filling in the blanks NN, XX, YY, ZZ:
 
-<div style="max-width: 500px; font-family: monospace">
-NUMBER : #NN
-TITLE : XX
-
-Dear YY,
-
-The paper above has been submitted for publication in the open-access electronic journal TheoretiCS, and you had served as a reviewer for the first phase of the TheoretiCS review process.
-
-The paper has been accepted after the first phase: the Editorial Board thinks it contains significant results of lasting value, worthy of being inspected in more detail to check their correctness and the quality of the presentation.
-
-I would greatly appreciate it if you could act as a referee for the second phase. The deadline for your review is:
-
-  ZZ
-
-You can complete your review directly by going to your Episciences profile and editing your previous reviewing. Remember that you can log in to TheoretiCS with your CCSD identifier (this identifier is shared by CCSD services, such as HAL, Episciences...). Once you have completed your review, you should complete the "Phase 2" part of the review form. Please do not edit the "Phase 1" part of the form.
-
+<div style="max-width: 700px; font-family: monospace">
+NUMBER : #NN<br/>
+TITLE : XX<br/>
+<br/>
+Dear YY,<br/>
+<br/>
+The paper above has been submitted for publication in the open-access electronic journal TheoretiCS, and you had served as a reviewer for the first phase of the TheoretiCS review process.<br/>
+<br/>
+The paper has been accepted after the first phase: the Editorial Board thinks it contains significant results of lasting value, worthy of being inspected in more detail to check their correctness and the quality of the presentation.<br/>
+<br/>
+I would greatly appreciate it if you could act as a referee for the second phase. The deadline for your review is:<br/>
+<br/>
+  ZZ<br/>
+<br/>
+You can complete your review directly by going to your Episciences profile and editing your previous reviewing. Remember that you can log in to TheoretiCS with your CCSD identifier (this identifier is shared by CCSD services, such as HAL, Episciences...). Once you have completed your review, you should complete the "Phase 2" part of the review form. Please do not edit the "Phase 1" part of the form.<br/>
+<br/>
 Please let me know today, if at all possible, whether you will be able to provide a review or not, by replying to this email.
 </div>
 
