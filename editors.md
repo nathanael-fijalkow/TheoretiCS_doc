@@ -203,7 +203,7 @@ reviewer".
 
 Here is a template that you can use, filling in the blanks NN, XX, YY, ZZ:
 
-<div style="max-width: 700px; font-family: monospace">
+<div style="max-width: 700px; font-family: monospace; font-size: 70%">
 NUMBER : #NN<br/>
 TITLE : XX<br/>
 <br/>

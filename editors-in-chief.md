@@ -105,7 +105,7 @@ Change the subject and fill the message (see picture below), according to the te
  
 <img src="Email_to_editors.png" alt="Email to editors" height="600"/>
 
-<div style="max-width: 700px; font-family: monospace">
+<div style="max-width: 700px; font-family: monospace; font-size: 70%">
 --------- VERSION FOR HANDLING EDITOR ------<br/>
 <br/>
 Subject: TheoretiCS #NN: Handling editor<br/>
@@ -143,7 +143,7 @@ Editor-in-chief<br/>
 
 Now, do the same for the partner editor with the following message:
 
-<div style="max-width: 700px; font-family: monospace">
+<div style="max-width: 700px; font-family: monospace; font-size: 70%">
 ------------ VERSION FOR PARTNER EDITOR ------<br/>
 <br/>
 Subject: TheoretiCS #NN: Partner editor<br/>
@@ -254,7 +254,7 @@ the process is more complicated:
 
 * Replace the text with the message below, changing NN, XX, and your signature in the message.
 
-<div style="max-width: 700px; font-family: monospace">
+<div style="max-width: 700px; font-family: monospace; font-size: 70%">
 ----------- BEGINNING OF EMAIL ------------<br/>
 <br/>
 Subject: TheoretiCS #NN: Phase 1 results<br/>
