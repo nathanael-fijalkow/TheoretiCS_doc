@@ -138,7 +138,7 @@ With best regards, <br/>
 Uri / Javier<br/>
 Editor-in-chief<br/>
 <br/>
------------ END OF VERSION FOR HANDLING EDITOR ---------
+----------- END OF VERSION FOR HANDLING EDITOR ---------<br/>
 </div>
 
 Now, do the same for the partner editor with the following message:
@@ -271,7 +271,7 @@ With best regards,<br/>
 Uri / Javier<br/>
 Editor-in-Chief<br/>
 <br/>
------------ END OF EMAIL ------------
+----------- END OF EMAIL ------------<br/>
 </div>
 
 * Scroll up to the "Contributor" tab and click on the third button (highlighted in red) to spoof the identity of the author

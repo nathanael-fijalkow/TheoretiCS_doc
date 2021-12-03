@@ -219,7 +219,7 @@ I would greatly appreciate it if you could act as a referee for the second phase
 <br/>
 You can complete your review directly by going to your Episciences profile and editing your previous reviewing. Remember that you can log in to TheoretiCS with your CCSD identifier (this identifier is shared by CCSD services, such as HAL, Episciences...). Once you have completed your review, you should complete the "Phase 2" part of the review form. Please do not edit the "Phase 1" part of the form.<br/>
 <br/>
-Please let me know today, if at all possible, whether you will be able to provide a review or not, by replying to this email.
+Please let me know today, if at all possible, whether you will be able to provide a review or not, by replying to this email.<br/>
 </div>
 
 It is very important that you send the email, because reviewers will *not* be
