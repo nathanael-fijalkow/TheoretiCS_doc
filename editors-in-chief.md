@@ -130,7 +130,7 @@ I would like to ask you to conclude this first phase before<br/>
 <br/>
   Date (about current date + 10 weeks) <br/>
 <br/>
-Our committment to authors is that they must receive the verdict of the first phase (i.e., acceptance to the second phase, or rejection) within 3 months, including discussion with the board. So please remember that this is a firm deadline to submit your recommendation, evaluating the paper yourself if necessary.<br/>
+Our commitment to authors is that they must receive the verdict of the first phase (i.e., acceptance to the second phase, or rejection) within 3 months, including discussion with the board. So please remember that this is a firm deadline to submit your recommendation, evaluating the paper yourself if necessary.<br/>
 <br/>
 In the second phase, possibly different reviewers check the validity of the results and the presentation. Submissions that pass the first phase are expected to eventually be published, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
 <br/>
@@ -156,13 +156,13 @@ I would like you to act as partner editor of the above submission to TheoretiCS.
 <br/>
 To access the paper, log into your editor account, click on "Dashboard", and then on the title of the paper.<br/>
 <br/>
-Recall that TheoretiCS follows a two-phase reviewing process. In the first phase, you and your partner editor, usually after seeking the opinion of reviewers, agree on a recommendation: Accept for the second phase, or reject. The main criteria are the significance of the results, the belief that the exposition is of high quality or will be so after revision, and the availability of expert reviewers. The paper moves to the second phase after approval by the Editorial Board.<br/>
+Recall that TheoretiCS follows a two-phase reviewing process. In the first phase, you and the handling editor, usually after seeking the opinion of reviewers, agree on a recommendation: Accept for the second phase, or reject. The main criteria are the significance of the results, the belief that the exposition is of high quality or will be so after revision, and the availability of expert reviewers. The paper moves to the second phase after approval by the Editorial Board.<br/>
 <br/>
 I have asked the handling editor to conclude this phase before<br/>
 <br/>
   Date (about current date + 10 weeks) <br/>
 <br/>
-Our committment to authors is that they must receive the verdict of the first phase (i.e., acceptance to the second phase, or rejection) within 3 months, including discussion with the board. So please remember that this is a firm deadline to submit your recommendation, evaluating the paper yourself if necessary.<br/>
+Our commitment to authors is that they must receive the verdict of the first phase (i.e., acceptance to the second phase, or rejection) within 3 months, including discussion with the board. So please remember that this is a firm deadline to submit your recommendation, evaluating the paper yourself if necessary.<br/>
 <br/>
 In the second phase, reviewers check the validity of the results and make suggestions to achieve a presentation of high quality. Submissions that qualify for the second phase are expected to eventually be published, usually in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
 <br/>
