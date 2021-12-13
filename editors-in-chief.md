@@ -119,7 +119,7 @@ Change the subject and fill the message (see picture below), according to the te
 
 <button onclick="copyDivToClipboard('msg-handling')">Copy handling editor
 message to clipboard</button>
-<div style="max-width: 700px; font-family: monospace; font-size: 70%" id="msg-handling">
+<div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-handling">
 --------- VERSION FOR HANDLING EDITOR ------<br/>
 <br/>
 Subject: TheoretiCS #NN: Handling editor<br/>
@@ -153,12 +153,12 @@ Uri / Javier<br/>
 Editor-in-chief<br/>
 <br/>
 ----------- END OF VERSION FOR HANDLING EDITOR ---------<br/>
-</div>
+</div></div>
 
 Now, do the same for the partner editor with the following message:
 
 <button onclick="copyDivToClipboard('msg-partner')">Copy partner editor message to clipboard</button>
-<div style="max-width: 700px; font-family: monospace; font-size: 70%" id="msg-partner">
+<div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-partner">
 ------------ VERSION FOR PARTNER EDITOR ------<br/>
 <br/>
 Subject: TheoretiCS #NN: Partner editor<br/>
@@ -186,7 +186,7 @@ Uri/Javier<br/>
 Editor-in-chief<br/>
 <br/>
 ----------- END OF VERSION FOR PARTNER EDITOR ------------
-</div>
+</div></div>
 
 ### Assigned editors: invite reviewers
 
@@ -270,7 +270,7 @@ the process is more complicated:
 * Replace the text with the message below, changing NN, XX, and your signature in the message.
 
 <button onclick="copyDivToClipboard('msg-phase1-accept')">Copy phase 1 acceptance message to clipboard</button>
-<div style="max-width: 700px; font-family: monospace; font-size: 70%" id="msg-phase1-accept">
+<div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-phase1-accept">
 ----------- BEGINNING OF EMAIL ------------<br/>
 <br/>
 Subject: TheoretiCS #NN: Phase 1 results<br/>
@@ -288,7 +288,7 @@ Uri / Javier<br/>
 Editor-in-Chief<br/>
 <br/>
 ----------- END OF EMAIL ------------<br/>
-</div>
+</div></div>
 
 * Scroll up to the "Contributor" tab and click on the third button (highlighted in red) to spoof the identity of the author
 
