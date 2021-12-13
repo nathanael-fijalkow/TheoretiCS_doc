@@ -2,6 +2,18 @@
 
 > Authors: Antoine Amarilli, Nathanaël Fijalkow
 
+<script>
+    // https://stackoverflow.com/a/48020189
+    function copyDivToClipboard(x) {
+        var range = document.createRange();
+        range.selectNode(document.getElementById(x));
+        window.getSelection().removeAllRanges(); // clear current selection
+        window.getSelection().addRange(range); // to select text
+        document.execCommand("copy");
+        window.getSelection().removeAllRanges();// to deselect
+    }
+</script>
+
 This document is intended for TheoretiCS editors-in-chief to present the workflow of the
 journal, which is a two-phase process. If you want a quick reference of the
 workflow, have a look at the flowcharts for [phase 1](detailed-phase1.pdf) and [phase 2](detailed-phase2.pdf).
@@ -105,7 +117,9 @@ Change the subject and fill the message (see picture below), according to the te
  
 <img src="Email_to_editors.png" alt="Email to editors" height="600"/>
 
-<div style="max-width: 700px; font-family: monospace; font-size: 70%">
+<button onclick="copyDivToClipboard('msg-handling')">Copy handling editor
+message to clipboard</button>
+<div style="max-width: 700px; font-family: monospace; font-size: 70%" id="msg-handling">
 --------- VERSION FOR HANDLING EDITOR ------<br/>
 <br/>
 Subject: TheoretiCS #NN: Handling editor<br/>
@@ -143,7 +157,8 @@ Editor-in-chief<br/>
 
 Now, do the same for the partner editor with the following message:
 
-<div style="max-width: 700px; font-family: monospace; font-size: 70%">
+<button onclick="copyDivToClipboard('msg-partner')">Copy partner editor message to clipboard</button>
+<div style="max-width: 700px; font-family: monospace; font-size: 70%" id="msg-partner">
 ------------ VERSION FOR PARTNER EDITOR ------<br/>
 <br/>
 Subject: TheoretiCS #NN: Partner editor<br/>
@@ -254,7 +269,8 @@ the process is more complicated:
 
 * Replace the text with the message below, changing NN, XX, and your signature in the message.
 
-<div style="max-width: 700px; font-family: monospace; font-size: 70%">
+<button onclick="copyDivToClipboard('msg-phase1-accept')">Copy phase 1 acceptance message to clipboard</button>
+<div style="max-width: 700px; font-family: monospace; font-size: 70%" id="msg-phase1-accept">
 ----------- BEGINNING OF EMAIL ------------<br/>
 <br/>
 Subject: TheoretiCS #NN: Phase 1 results<br/>
