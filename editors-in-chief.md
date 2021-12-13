@@ -6,7 +6,7 @@
     // https://stackoverflow.com/a/48020189
     function copyDivToClipboard(x) {
         var range = document.createRange();
-        range.selectNode(document.getElementById(x));
+        range.selectNodeContents(document.getElementById(x));
         window.getSelection().removeAllRanges(); // clear current selection
         window.getSelection().addRange(range); // to select text
         document.execCommand("copy");
