@@ -232,8 +232,12 @@ they can handle the submission, first by confirming (when accessing the
 submission) that they have no conflict of interest with the submission, then by
 performing their work of inviting reviewers (or indicating that they intend to
 review the article themselves, by assigning themselves or writing a comment to
-that effect). Once the editors have reacted, you can post a comment indicating
-again who the confirmed handling/partner editors are. To do this:
+that effect). 
+Once the editors have reacted, you do two things:
+* write to the authors to let them know who are the assigned editors, and
+* post a comment indicating again who the confirmed handling/partner editors are. 
+
+To do the later:
 * Access the paper (using Dashboard, as above)
 * Scroll down to the "Editors comments" tab and add a comment: "Handling Editor: XXX
 Partner Editor: YYY
