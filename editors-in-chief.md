@@ -305,6 +305,8 @@ the process is more complicated:
 
 * Replace the text with the message below, changing NN, XX, and your signature in the message.
 
+**Do not forget to change the subject of the message!**
+
 <button onclick="copyDivToClipboard('msg-phase1-accept')">Copy phase 1 acceptance message to clipboard</button>
 <div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-phase1-accept">
 ----------- BEGINNING OF EMAIL ------------<br/>
