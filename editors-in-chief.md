@@ -187,6 +187,10 @@ Editor-in-chief<br/>
 ----------- END OF VERSION FOR HANDLING EDITOR ---------<br/>
 </div></div>
 
+**Very important:** as a workaround ta avoid [episciences issue
+132](https://github.com/CCSDForge/episciences/issues/132#issuecomment-1005549895),
+**refresh the page**.
+
 Now, do the same for the partner editor with the following message:
 
 <button onclick="copyDivToClipboard('msg-partner')">Copy partner editor message to clipboard</button>
