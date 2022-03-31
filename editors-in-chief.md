@@ -241,7 +241,7 @@ Once the editors have reacted, you do two things:
 * write to the authors to let them know who are the assigned editors, and
 * post a comment indicating again who the confirmed handling/partner editors are. 
 
-To do the later:
+To do the latter:
 * Access the paper (using Dashboard, as above)
 * Scroll down to the "Editors comments" tab and add a comment: "Handling Editor: XXX
 Partner Editor: YYY
