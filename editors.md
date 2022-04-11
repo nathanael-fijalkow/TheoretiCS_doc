@@ -196,12 +196,18 @@ reviewer's name, and select "Allow to edit the reviewing" (see image below).
 
 <img src="Allow_Edit_Reviewing.svg" alt="Allow reviewer to edit rating" width="600"/>
 
-You should then send an email to the reviewer, clicking on "Contact this
-reviewer".
+You should then update the reviewing deadline, using the "Edit the reviewing
+deadline" menu option. This allows you to send an email to the reviewer, for
+which a template is proposed below. If you
+do not see this option, you can send an email to the reviewer manually, clicking
+on "Contact this reviewer". However, in this case, please get in touch with the
+managing editors so that we can investigate the situation (it may be the case
+that the system has a wrong deadline in mind for the reviewing).
 
-<img src="Email_to_reviewer.svg" alt="Email to reviewer" width="600"/>
+<!-- <img src="Email_to_reviewer.svg" alt="Email to reviewer" width="600"/> -->
 
-Here is a template that you can use, filling in the blanks NN, XX, YY, ZZ:
+Here is a template that you can use when contacting the reviewer, filling in the blanks NN, XX, YY,
+ZZ:
 
 <div style="max-width: 700px; font-family: monospace; font-size: 70%">
 NUMBER : #NN<br/>
