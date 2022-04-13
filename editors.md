@@ -193,6 +193,8 @@ reviewers. Note that the reviewing form filled by the reviewers includes a field
 editors but not to the authors). If you wish to do this, you should first go the
 the "Reviewers" tab on the articles page, then click the menu next to the
 reviewer's name, and select "Allow to edit the reviewing" (see image below).
+Note that this will <em>not</em> notify the reviewer, so you need to let them
+know (see below).
 
 <img src="Allow_Edit_Reviewing.svg" alt="Allow reviewer to edit rating" width="600"/>
 
@@ -228,12 +230,9 @@ You can complete your review directly by going to your Episciences profile and e
 Please let me know today, if at all possible, whether you will be able to provide a review or not, by replying to this email.<br/>
 </div>
 
-It is very important that you send the email, because reviewers will *not* be
-notified automatically when you click "Allow to edit the reviewing". Also, the
-Episciences system does not manage a deadline or reminders once you have allowed
-to edit the reviewing. Once the reviewer confirms acceptance of the invitation,
-*please post a comment* on the article page to clarify that they accepted and
-what the deadline is, so other editors and the editors-in-chief can see it.
+Once the reviewer confirms that they agreed, *please post a comment* on the
+article page to clarify that they accepted and what the deadline is, so other
+editors and the editors-in-chief can see it.
 
 #### Inviting a Phase 2 reviewer
 
