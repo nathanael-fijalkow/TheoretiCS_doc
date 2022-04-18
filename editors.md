@@ -159,6 +159,13 @@ to the invitation, and that they hand in the reviews on time). Once all
 pending reviews are completed, the paper goes to status "Reviewed" and it
 is up to you to propose a decision.
 
+### Assigned editors: read reviews
+
+When a reviewer has completed their review, you can access them on the page of
+the article, in the "Ratings" tab, see below:
+
+<img src="Reviews.png" alt="Reviews" width="600"/>
+
 ### Assigned editors: propose decision
 
 Once the paper has status "Reviewed" and you do not wish any more reviews, you can propose a decision. 
