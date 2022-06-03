@@ -332,7 +332,12 @@ Editor-in-Chief<br/>
 ----------- END OF EMAIL ------------<br/>
 </div></div>
 
-If no immediate revision is required from the authors when moving to Phase 2, use the following steps: 
+If an immediate revision is required from the authors when moving to Phase 2
+(e.g., to react immediately to problems pointed out by Phase 1 reviewers), edit
+the above message to point out the required changes, send it, and stop here. The
+authors will then have the opportnity to submit a revision and the process can
+resume.
+If no such immediate revision is required from the authors when moving to Phase 2, use the following steps to do a dummy revision: 
 
 * Scroll up to the "Contributor" tab and click on the third button (highlighted in red) to spoof the identity of the author
 
