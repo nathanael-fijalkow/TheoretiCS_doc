@@ -187,7 +187,7 @@ Editor-in-chief<br/>
 ----------- END OF VERSION FOR HANDLING EDITOR ---------<br/>
 </div></div>
 
-**Very important:** as a workaround ta avoid [episciences issue
+**Very important:** as a workaround to avoid [episciences issue
 132](https://github.com/CCSDForge/episciences/issues/132#issuecomment-1005549895),
 **refresh the page**.
 
@@ -331,6 +331,8 @@ Editor-in-Chief<br/>
 <br/>
 ----------- END OF EMAIL ------------<br/>
 </div></div>
+
+If no immediate revision is required from the authors when moving to Phase 2, use the following steps: 
 
 * Scroll up to the "Contributor" tab and click on the third button (highlighted in red) to spoof the identity of the author
 
