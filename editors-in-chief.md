@@ -387,6 +387,67 @@ To accept or reject:
 If accepted, the paper then proceeds to the layout editing phase for final
 publication.
 
+## Special workflow for conflicted papers
+
+### Papers authored by an editor-in-chief
+
+This case will not happen; editors-in-chief are not allowed to submit papers to
+the journal.
+
+### Papers authored by a managing editor
+
+Papers authored by a managing editor are submitted to the system as usual, and
+handled by an editor-in-chief, who assigns editors, and posts a comment saying
+that there should be no discussion about the paper on the system.
+
+The paper is advertised as a new submission in the digest, and it is said there
+that the paper will not be discussed on the platform, and that editors who would
+want to comment (or be Cc'd to the discussion) should contact the relevant
+editor-in-chief by email.
+
+The editors handle reviewing and discussion between themselves and the
+editor-in-chief by email.
+
+The acceptance/rejection proposition is not put on the platform but sent in a
+"shadow digest" by the editor-in-chief directly to all editors.
+
+When the paper moves forward to phase 2, is revised, etc., these changes are
+implemented on Episciences by the editors-in-chief; but discussion never happens
+on Episciences.
+
+(The rationale for all of this is that there is currently no way to hide from
+managing editors the information of what happens on the platform.)
+
+### Papers authored by editors
+
+Papers authored by an editor are handled in the normal way (and the editor in
+question should be in COI with the paper on Episciences), the only difference is
+that we make sure not to include confidential information about the paper in the
+digest.
+
+For this, the EiCs should notice when a submitted paper has an editor among the
+authors (editors can also point this out to the EiCs, in the cover letter...).
+Then, managing editors mark the paper as "authored by an editor". For such
+papers, in the digest, we do not include any confidential information, e.g., we
+write "A verdict was proposed for this paper, but since it is authored by an
+editor, you can only see it by clicking the link...".
+
+### Papers in conflict with an editor-in-chief or managing editor
+
+These papers are managed normally. We trust editors-in-chief and managing
+editors not to be involved with the paper and not looking at what goes on with
+the paper.
+
+### Papers in conflict with an editor
+
+These papers are managed normally. We think it is not a problem if editors can
+see in the digest some information about papers that they are conflicted with.
+
+If an editor has such a strong conflict that they would like to make sure that
+they don't see information in the digest about the paper, they can write the
+EiCs so that the paper is marked as "authored by an editor" and we apply the
+above procedure.
+
 ## Useful links
 
 * General-purpose [Episciences documentation](https://doc.episciences.org/en/welcome/).
