@@ -294,14 +294,69 @@ To communicate the decision to the authors:
 
 * Access the paper (using Dashboard, as above)
 
-To reject: 
+Then, the process depends on the outcome for the article
+
+#### The article should be rejected
+
+To reject the article:
 
 * Scroll down to the "Article status" tab and click on "Change article status" then option "Reject this article" (highlighted in red)
 
 <img src="Reject.svg" alt="Reject" width="600"/>
 
-To conditionally accept (move to Phase 2) and send the reviews to the authors,
-the process is more complicated:
+#### The article should be moved to Phase 2, but expecting a revision from the authors
+
+* Scroll down to the "Article status" tab and click on "Ask for a minor
+revision" (highlighted in red), or "Ask for a major revision", depending on the
+revision needed
+
+<img src="GoPhase2.svg" alt="Ask for a revision for phase 2" width="600"/>
+
+* Replace the text with the message below, changing NN, XX, YY and your signature in the message.
+
+**Do not forget to change the subject of the message!**
+
+<button onclick="copyDivToClipboard('msg-phase1-accept')">Copy phase 1 acceptance message to clipboard</button>
+<div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-phase1-accept">
+----------- BEGINNING OF EMAIL ------------<br/>
+<br/>
+Subject: TheoretiCS #NN: Phase 1 results and request for revision<br/>
+<br/>
+Title: XX<br/>
+<br/>
+Dear Author:<br/>
+<br/>
+I am very happy to inform you that your paper has successfully passed the first phase of our review process. This means that the Editorial Board considers the results of your paper significant and of lasting value. The referee reports are attached. <br/>
+<br/>
+Before starting the second phase of the review process, we would like you to revise your paper to incorporate the comments of the phase 1 reviewers. In particular, please fix: YY<br/>
+<br/>
+With best regards,<br/>
+Uri / Javier<br/>
+Editor-in-Chief<br/>
+<br/>
+----------- END OF EMAIL ------------<br/>
+</div></div>
+
+You can optionally set a deadline for the revision request. Do *not* tick the "Automatically reinvite reviewers" checkbox.
+
+* Move the paper to phase 2: scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 2":
+
+<img src="GoPhase2b.png" alt="Move to Phase 2" width="600"/>
+
+* Scroll down to the "Editors comments" tab and add a comment: "Moving the paper to Phase 2."
+
+<img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="600"/>
+
+The paper now still have status "Pending major revision" or "Pending minor revision".
+
+Once the authors submit a new version, the editors will be able to invite
+reviewers from Phase 2 (manually).
+The old reviews and reviewers can be found by looking at the "Versions" tab of the article's page.
+
+#### The article should be moved to Phase 2 without any modification
+
+To conditionally accept (move to Phase 2) and send the reviews to the authors, without expecting a revision from them, the process
+is more complicated. It is the same as the above process, but then spoofing the identity of the authors to submit a new version without any changes. Specifically:
 
 * Scroll down to the "Article status" tab and click on "Ask for a minor revision" (highlighted in red)
 
@@ -332,27 +387,20 @@ Editor-in-Chief<br/>
 ----------- END OF EMAIL ------------<br/>
 </div></div>
 
-If an immediate revision is required from the authors when moving to Phase 2
-(e.g., to react immediately to problems pointed out by Phase 1 reviewers), edit
-the above message to point out the required changes, send it, and stop here. The
-authors will then have the opportnity to submit a revision and the process can
-resume.
-If no such immediate revision is required from the authors when moving to Phase 2, use the following steps to do a dummy revision: 
-
 * Scroll up to the "Contributor" tab and click on the third button (highlighted in red) to spoof the identity of the author
 
 <img src="Spoofing.svg" alt="Spoofing" width="600"/>
 
 * Access the paper (using Dashboard, as above)
-* Scroll down to the "Revision requests" tab and click on "Answer this request" and "Answer without any modifications" (highlighted in red)
-
-<img src="AnswerNoRevision.svg" alt="Answer without any modifications" width="600"/>
-
-* Validate the form with a dummy message, e.g., "The article has been accepted
-  to phase 2, the assigned editors should now invite phase 2 reviewers"
+* Download the article from arXiv by clicking on the link after "Source:" and then clicking "Download: PDF" on arXiv.
+* Scroll down to the "Revision requests" tab and click on "Answer this request" and "Send a temporary version"
+* Edit the form: click "Add files...", attach the paper downloaded from arXiv. Leave the "Comment" field empty.
+* Click "Submit". You will see the message "Your temporary version has been saved"
 * Log out, and log in again with your usual account
 * Navigate back to the administration page for the paper (the most convenient is
   to do this with the browser history)
+* Make sure to access the latest version of the article: if the article has "Current status: Obsolete", follow the link in "Please note that this article is obsolete.
+    It is an older version of this article". Then, if you do not have the options to change the article status, click "Go to the management page for this article".
 * Move the paper to phase 2: scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 2":
 
 <img src="GoPhase2b.png" alt="Move to Phase 2" width="600"/>
@@ -361,7 +409,8 @@ If no such immediate revision is required from the authors when moving to Phase 
 
 <img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="600"/>
 
-The paper now still have status "Reviewed".
+The paper will now have status "Submitted", and the editors should take care of it by inviting reviewers (manually).
+The old reviews and reviewers can be found by looking at the "Versions" tab of the article's page.
 
 ### Editors: take care of the review process for Phase 2
 
