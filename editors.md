@@ -145,7 +145,7 @@ text of the email (highlighted in red below).
 <img src="Invite_Reviewer_Email_annotate.svg" alt="Reviewer Invitation Email" width="600"/>
 
 When picking a deadline for the review, please keep in mind your own deadline
-for giving a recommendation on the paper (this is indicated as a comment on teh
+for giving a recommendation on the paper (this is indicated as a comment on the
 article).
 
 It is normal for the email to contain text "%%INVITATION_URL%%". This will be
@@ -196,7 +196,7 @@ If you no longer see the reviews and reviewers of Phase 1, you may need to
 navigate to an older version of the article: in the "Versions" pane on the page,
 click on "Version 1".
 
-To invite reviewers, oone possibility is to invite the phase 1 reviewers to
+To invite reviewers, one possibility is to invite the phase 1 reviewers to
 serve as phase 2 reviewers. Note that the reviewing form filled by the reviewers
 includes a field "Would you be available for a second-phase review?" (which is
 visible to the editors but not to the authors). To do so, simply follow the same
