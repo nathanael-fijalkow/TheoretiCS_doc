@@ -192,31 +192,17 @@ paper to phase 2 yourself!
 Once the paper has been moved to phase 2 by the editors-in-chief and is in status
 "Reviewed", you can now invite reviewers again.
 
-#### Reinviting a Phase 1 reviewer
+If you no longer see the reviews and reviewers of Phase 1, you may need to
+navigate to an older version of the article: in the "Versions" pane on the page,
+click on "Version 1".
 
-One possibility is to invite the phase 1 reviewers to serve as phase 2
-reviewers. Note that the reviewing form filled by the reviewers includes a field
-"Would you be available for a second-phase review?" (which is visible to the
-editors but not to the authors). If you wish to do this, you should first go the
-the "Reviewers" tab on the articles page, then click the menu next to the
-reviewer's name, and select "Allow to edit the reviewing" (see image below).
-Note that this will <em>not</em> notify the reviewer, so you need to let them
-know (see below).
-
-<img src="Allow_Edit_Reviewing.svg" alt="Allow reviewer to edit rating" width="600"/>
-
-You should then update the reviewing deadline, using the "Edit the reviewing
-deadline" menu option. This allows you to send an email to the reviewer, for
-which a template is proposed below. If you
-do not see this option, you can send an email to the reviewer manually, clicking
-on "Contact this reviewer". However, in this case, please get in touch with the
-managing editors so that we can investigate the situation (it may be the case
-that the system has a wrong deadline in mind for the reviewing).
-
-<!-- <img src="Email_to_reviewer.svg" alt="Email to reviewer" width="600"/> -->
-
-Here is a template that you can use when contacting the reviewer, filling in the blanks NN, XX, YY,
-ZZ:
+To invite reviewers, oone possibility is to invite the phase 1 reviewers to
+serve as phase 2 reviewers. Note that the reviewing form filled by the reviewers
+includes a field "Would you be available for a second-phase review?" (which is
+visible to the editors but not to the authors). To do so, simply follow the same
+steps as in phase 1.
+Here is a template that you can use when contacting the reviewer, filling in the
+blanks NN, XX, YY, ZZ:
 
 <div style="max-width: 700px; font-family: monospace; font-size: 70%">
 NUMBER : #NN<br/>
@@ -237,15 +223,9 @@ You can complete your review directly by going to your Episciences profile and e
 Please let me know today, if at all possible, whether you will be able to provide a review or not, by replying to this email.<br/>
 </div>
 
-Once the reviewer confirms that they agreed, *please post a comment* on the
-article page to clarify that they accepted and what the deadline is, so other
-editors and the editors-in-chief can see it.
-
-#### Inviting a Phase 2 reviewer
-
-Reviewing a paper for phase 1 does not commit reviewers to accepting to serve on
-phase 2, so it is possible to invite new reviewers for phase 2. To do so, simply
-follow the same steps as in phase 1.
+Alternatively, as reviewing a paper for phase 1 does not commit reviewers to
+accepting to serve on phase 2, you can also invite new reviewers for phase 2. To
+do so, simply follow the same steps as in phase 1.
 
 #### What to do after sending the invitations
 
