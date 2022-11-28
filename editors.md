@@ -159,6 +159,23 @@ to the invitation, and that they hand in the reviews on time). Once all
 pending reviews are completed, the paper goes to status "Reviewed" and it
 is up to you to propose a decision.
 
+### Assigned editors: dealing with late reviewers
+
+If a reviewer is late with their review, the platform will automatically send
+them reminders, but it will be more effective to contact them directly.
+
+If the reviewer needs more time, you can extend their deadline for the review
+(keeping in mind your own deadline for a recommendation on the paper). This
+should be done on the Episciences platform and not just by email, to ensure that
+it is visible to everyone, and to make sure that the reviewer will not receive
+incorrect reminders.
+
+To do this, on the "Reviewers" tab, click on the menu button next to the
+reviewer's name (above the line "Pending reviewing") and select "Edit the
+reviewing deadline". You can then set a new deadline and compose an email to
+confirm it to the reviewer. (It is not possible to change the deadline without
+sending an email to confirm it.)
+
 ### Assigned editors: read reviews
 
 When a reviewer has completed their review, you can access them on the page of
