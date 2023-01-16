@@ -443,6 +443,24 @@ To accept or reject:
 If accepted, the paper then proceeds to the layout editing phase for final
 publication.
 
+## Publication process (for managing editors)
+
+Once the final version of the paper has been posted to arXiv, here are the steps
+to take:
+
+- Import the latest arXiv version of the paper in the system -- either from the
+  management page by clicking the edit icon next to the article version, or by
+  answering the request for the final version from the *public page* of the
+  article.
+- **IMPORTANT:** Set the volume and
+   check that the article numbers are correct. (This cannot be changed
+   after publication without emailing Episciences.)
+- Add the DOI to the article
+- Change the article status to publish the article
+- Remove the article from the "Coming soon" page
+- Check that the article shows up in the "latest articles" page (there
+   seems to be a small delay of a few minutes)
+
 ## Special workflow for conflicted papers
 
 ### Papers authored by an editor-in-chief
