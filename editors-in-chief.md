@@ -316,8 +316,8 @@ revision needed
 
 **Do not forget to change the subject of the message!**
 
-<button onclick="copyDivToClipboard('msg-phase1-accept')">Copy phase 1 acceptance message to clipboard</button>
-<div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-phase1-accept">
+<button onclick="copyDivToClipboard('msg-phase1-accept-revision')">Copy phase 1 acceptance message to clipboard</button>
+<div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-phase1-accept-revision">
 ----------- BEGINNING OF EMAIL ------------<br/>
 <br/>
 Subject: TheoretiCS #NN: Phase 1 results and request for revision<br/>
