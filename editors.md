@@ -96,10 +96,7 @@ information about this paper anymore. In particular, if you had been assigned as
 handling editor or partner editor to this paper, you will be automatically
 unassigned.
 
-To know what constitutes a conflict of interest, please refer to the [conflict
-of interest
-policy](https://theoretics.episciences.org/page/conflict-of-interest-policy). If
-you are still unsure, please contact the editors-in-chief.
+To know what constitutes a conflict of interest, please contact the editors-in-chief.
 
 If you mistakenly indicate that you have a conflict of interest with a
 submission, you need to get in touch with the editors-in-chief, who will write
