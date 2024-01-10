@@ -64,7 +64,7 @@ editors and editors-in-chief can access it.
 
 ### Authors: submit an article
 
-Authors first submit their work on a repository (HAL or arXiv), and then submit
+Authors first submit their work on arXiv, and then submit
 the paper to the Episciences system.
 
 Authors who do not wish to submit their work to a repository when submitting to
