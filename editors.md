@@ -119,7 +119,7 @@ or on "Review this article" if you plan on reviewing it yourself.
 Please select external reviewers as usual, e.g., making sure that the reviewer
 has no
 [conflict of
-interest](https://theoretics.episciences.org/page/conflict-of-interest-policy)
+interest](https://theoretics.episciences.org/page/policies)
 relative to the authors (not only the corresponding authors but all authors of
 the article).
 
