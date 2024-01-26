@@ -182,13 +182,31 @@ the article, in the "Ratings" tab, see below:
 
 ### Assigned editors: propose decision
 
-Once the paper has status "Reviewed" and you do not wish any more reviews, you can propose a decision. 
-For phase 1, this is: propose to accept or propose to reject (no revision possible).
-Please do not use the revision mechanism at this stage: it is supported by the
-platform, but in the TheoretiCS workflow we want to give authors a definitive
-answer within three months.
+Once the paper has status "Reviewed" and you do not wish any more reviews, you
+can propose a decision by updating the status of the article (do not chose "Ask
+for a minor/major revision"! Read below):
 
 <img src="DecisionPhase1.png" alt="Decision Phase 1" width="600"/>
+
+You have 3 possibilities:
+
+#### You want to propose rejection
+Simply choose "I suggest to reject the article".
+
+#### You want to propose to move the paper to phase 2 and no revision is needed
+Simply choose "I suggest to accept the article".
+
+#### You want to propose to move the paper to phase 2 and ask the authors for a revision to start phase 2
+
+Choose "I suggest to accept the article", and as a comment ask to the Editors
+in Chief to ask the authors for a minor/major revision to start phase 2. Please
+do not choose "Ask for a minor/major revision" at this stage: it is supported
+by the platform, but in the TheoretiCS workflow we want to give authors a
+definitive answer within three months. In other words, the paper moving to
+phase 2 is not conditional to the revision that you ask here; this revision is
+only here in case phase 1 reviewers suggested changes to make to improve phase
+2 reviewing.
+
 
 Once you have proposed a decision, a weekly digest will invite all editors to comment on the article. 
 Once this period has elapsed, the editors-in-chief communicate the decision to the authors.
