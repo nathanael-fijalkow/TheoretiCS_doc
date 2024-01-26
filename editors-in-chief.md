@@ -358,6 +358,7 @@ The old reviews and reviewers can be found by looking at the "Versions" tab of t
 To conditionally accept (move to Phase 2) and send the reviews to the authors, without expecting a revision from them, the process
 is more complicated. It is the same as the above process, but then spoofing the identity of the authors to submit a new version without any changes. Specifically:
 
+* Move the paper to phase 2: scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 2":
 * Scroll down to the "Article status" tab and click on "Ask for a minor revision" (highlighted in red)
 
 <img src="GoPhase2.svg" alt="Ask for a revision for phase 2" width="600"/>
@@ -401,7 +402,6 @@ Editor-in-Chief<br/>
   to do this with the browser history)
 * Make sure to access the latest version of the article: if the article has "Current status: Obsolete", follow the link in "Please note that this article is obsolete.
     It is an older version of this article". Then, if you do not have the options to change the article status, click "Go to the management page for this article".
-* Move the paper to phase 2: scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 2":
 
 <img src="GoPhase2b.png" alt="Move to Phase 2" width="600"/>
 
