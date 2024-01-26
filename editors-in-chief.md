@@ -306,6 +306,14 @@ To reject the article:
 
 #### The article should be moved to Phase 2, but expecting a revision from the authors
 
+* Move the paper to phase 2: scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 2":
+
+<img src="GoPhase2b.png" alt="Move to Phase 2" width="600"/>
+
+* Scroll down to the "Editors comments" tab and add a comment: "Moving the paper to Phase 2. A revision has been asked to start phase 2."
+
+<img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="600"/>
+
 * Scroll down to the "Article status" tab and click on "Ask for a minor
 revision" (highlighted in red), or "Ask for a major revision", depending on the
 revision needed
@@ -338,14 +346,6 @@ Editor-in-Chief<br/>
 </div></div>
 
 You can optionally set a deadline for the revision request. Do *not* tick the "Automatically reinvite reviewers" checkbox.
-
-* Move the paper to phase 2: scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 2":
-
-<img src="GoPhase2b.png" alt="Move to Phase 2" width="600"/>
-
-* Scroll down to the "Editors comments" tab and add a comment: "Moving the paper to Phase 2."
-
-<img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="600"/>
 
 The paper now still have status "Pending major revision" or "Pending minor revision".
 
