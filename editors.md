@@ -209,7 +209,8 @@ only here in case phase 1 reviewers suggested changes to make to improve phase
 
 
 Once you have proposed a decision, a weekly digest will invite all editors to comment on the article. 
-Once this period has elapsed, the editors-in-chief communicate the decision to the authors.
+Once this period has elapsed, the editors-in-chief communicate the decision to the authors (and ask them
+for a revision in case you asked for it).
 
 During all that process, the paper remains in status "Reviewed" and is in phase 1.
 
@@ -217,12 +218,17 @@ During all that process, the paper remains in status "Reviewed" and is in phase 
 
 The editors-in-chief send the reviews to the authors and move the paper to
 phase 2. This will always be done by the editors-in-chief -- do not move a
-paper to phase 2 yourself!
+paper to phase 2 yourself! If a revision was needed to start phase 2, they
+will also ask the authors for such a revision.
 
 ### Assigned editors: take care of the review process for Phase 2
 
-Once the paper has been moved to phase 2 by the editors-in-chief and is in status
-"Reviewed", you can now invite reviewers again.
+If the paper has been moved to phase 2 by the editors-in-chief without the need for a
+revision, its status should now be
+"Reviewed", and you can now invite reviewers again.
+
+If a revision was asked, you should wait for the authors to submit it, and then
+you can invite reviewers for phase 2.
 
 If you no longer see the reviews and reviewers of Phase 1, you may need to
 navigate to an older version of the article: in the "Versions" pane on the page,
