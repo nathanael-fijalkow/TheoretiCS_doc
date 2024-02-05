@@ -316,7 +316,7 @@ editors to comment on the article. Once this period has elapsed, the editors-in-
 
 ## Getting help
 
-Email the [managing editors: Nathanaël Fijalkow, Mikaël Monet and David Purser](mailto:managing-editors@theoretics-journal.org)
+Email the [managing editors: Nathanaël Fijalkow, Mikaël Monet and David Purser](mailto:nathanael.fijalkow@gmail.com,mikael.monet@inria.fr,d.purser@liverpool.ac.uk)
 or the [editors-in-chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
 
 ## Useful links
