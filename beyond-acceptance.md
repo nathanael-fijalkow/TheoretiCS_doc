@@ -6,8 +6,8 @@ Once a paper has been accepted (i.e., it appeared in the previous digest as
 recommended for acceptance and no editor reacted to it), we start the
 publishing procedure below.
 
-TODO: update this page to the current procedure and to take into account the
-new spreadsheet that David created
+We have an internal spreadsheet to keep track of which papers are in which
+stage of this process. The process is:
 
 1. The editor-in-chief accepts the paper (changed its status) and communicates
    to the author with the latest reviews and comments
@@ -19,9 +19,9 @@ new spreadsheet that David created
 
 4. The layout editors hand it over to managing editors
 
-6. The managing editors set the volume (to "Volume XXX" (one per year)) and check that the
-   article numbers are correct. This cannot be changed after publication
-   without emailing Episciences
+6. The managing editors set the volume (to "Volume XXX" (one per year)) in the
+   platform and check that the article numbers are correct. This cannot be
+   changed after publication without emailing Episciences
 
 6. The managing editors figure out:
     * the number in the volume
@@ -30,10 +30,18 @@ new spreadsheet that David created
     for instance year = 23 and number = 10
     * publication date (the day it is put on arXiv).
 
-7. The managing editors input the above information and send an email to the
-   authors to ask them to upload the Overleaf version to arXiv (there's some
-   specific documentation, because they need to add the generated bibliography
-   file, not the .bib file)
+7. The managing editors input the above information in the Latex file, i.e.,
+   they check that the following macros are present and fill those that need to
+   be filled: 
+    * \ThCSyear{}
+    * \ThCSarticlenum{}
+    * \ThCSdoicreatedtrue
+    * \ThCSreceived{}
+    * \ThCSrevised{}
+    * \ThCSaccepted{}
+    * \ThCSpublished{}
+   They then send an email to the authors to ask them to upload the Overleaf
+   version to arXiv, using the template email.
 
 8. Once the version is on arXiv, managing editors check whether it's correct,
    and import the latest arXiv version of the paper in the system:
@@ -42,7 +50,7 @@ new spreadsheet that David created
     * by answering the request for the final version from the public page of
       the article
 
-10. Managing editors add the DOI
+10. Managing editors add the DOI in the platform
 
 11. Managing editors click publish
 
