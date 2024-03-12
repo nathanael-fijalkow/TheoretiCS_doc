@@ -15,33 +15,27 @@ stage of this process. The process is:
 2. The author sends their files for final version (in some non-TheoretiCS
    style)
 
-3. The layout editors work on the paper on Overleaf
+3. The layout editors work on the paper on Overleaf, then hand it over to managing editors
 
-4. The layout editors hand it over to managing editors
+6. The managing editors change the volume (to "Volume XXX" (one per year)) in the
+   platform. This has the effect of creating an "article number". This number
+   cannot be changed after publication without emailing Episciences
 
-6. The managing editors set the volume (to "Volume XXX" (one per year)) in the
-   platform and check that the article numbers are correct. This cannot be
-   changed after publication without emailing Episciences
-
-6. The managing editors figure out:
-    * the number in the volume
-    * the DOI, which is a function of the above: 
-      https://doi.org/10.46298/theoretics.year.number
-      for instance year = 23 and number = 10
-    * publication date: the day it will be announced on arXiv, see
+7. The managing editors check that the following macros are present in the
+   latex file and fill those that need to be filled: 
+    * \ThCSyear{}: already pre-filled
+    * \ThCSarticlenum{}: the article number from above
+    * \ThCSdoicreatedtrue: this is commented out when we receive the file and
+      needs to be uncommented to create the DOI string on the paper. The DOI is
+      of the form https://doi.org/10.46298/theoretics.year.number (for instance year
+      = 23 and number = 10), and it needs to appear on the bottom-right corner of the
+      first page
+    * \ThCSreceived{}: already pre-filled by layout editors
+    * \ThCSrevised{}: already pre-filled by layout editors
+    * \ThCSaccepted{}: already pre-filled by layout editors
+    * \ThCSpublished{}: here we guess the day it will be announced on arXiv, see
       [here](https://info.arxiv.org/help/availability.html). (The email we send
       to authors ask them to update this date in case they submit later)
-
-7. The managing editors input the above information in the Latex file, i.e.,
-   they check that the following macros are present and fill those that need to
-   be filled: 
-    * \ThCSyear{}
-    * \ThCSarticlenum{}
-    * \ThCSdoicreatedtrue
-    * \ThCSreceived{}
-    * \ThCSrevised{}
-    * \ThCSaccepted{}
-    * \ThCSpublished{}
 
    They then send an email to the authors to ask them to upload the Overleaf
    version to arXiv, using the template email.
@@ -53,9 +47,13 @@ stage of this process. The process is:
     * by answering the request for the final version from the public page of
       the article
 
-10. Managing editors add the DOI in the platform
+9. Managing editors add the DOI in the platform (click "request DOI" and check
+   that the DOI assigned is the same as above)
 
-11. Managing editors click publish
+10. Managing editors click publish
 
-12. Managing editors check that the article shows up in the "latest articles"
+11. Managing editors check that the article shows up in the "latest articles"
     page (there seems to be a small delay of a few minutes)
+
+12. If the publication date on the pdf does not match to the publication date
+    on the patform, managing editors leave a comment in the spreadsheet
