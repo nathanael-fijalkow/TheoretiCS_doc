@@ -26,9 +26,11 @@ stage of this process. The process is:
 6. The managing editors figure out:
     * the number in the volume
     * the DOI, which is a function of the above: 
-    https://doi.org/10.46298/theoretics.year.number
-    for instance year = 23 and number = 10
-    * publication date (the day it is put on arXiv).
+      https://doi.org/10.46298/theoretics.year.number
+      for instance year = 23 and number = 10
+    * publication date: the day it will be announced on arXiv, see
+      [here](https://info.arxiv.org/help/availability.html). (The email we send
+      to authors ask them to update this date in case they submit later)
 
 7. The managing editors input the above information in the Latex file, i.e.,
    they check that the following macros are present and fill those that need to
@@ -40,6 +42,7 @@ stage of this process. The process is:
     * \ThCSrevised{}
     * \ThCSaccepted{}
     * \ThCSpublished{}
+
    They then send an email to the authors to ask them to upload the Overleaf
    version to arXiv, using the template email.
 
