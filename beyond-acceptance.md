@@ -31,7 +31,10 @@ stage of this process. The process is:
       = 23 and number = 10), and it needs to appear on the bottom-right corner of the
       first page
     * \ThCSreceived{}: already pre-filled by layout editors
-    * \ThCSrevised{}: already pre-filled by layout editors
+    * \ThCSrevised{}: already pre-filled by layout editors. This is the date
+      that we received the last revision version of the article that were
+      accepted (not the date that we received the sources as in step 2). If there was
+      no revision throughout the entire reviewing process, we comment it out.
     * \ThCSaccepted{}: already pre-filled by layout editors
     * \ThCSpublished{}: here we guess the day it will be announced on arXiv, see
       [here](https://info.arxiv.org/help/availability.html). (The email we send
