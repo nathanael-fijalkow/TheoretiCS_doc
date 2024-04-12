@@ -9,6 +9,24 @@
 <!--- Copy this bit -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone-with-data.js" integrity="sha512-nwFvp27oDSOkJAXZdkqJDB2FkkI3dXJKSapfBmm+R9YW/4KvT8SAGhyTxmt6Uxfa49rTYODHdjjVjOLSJELfJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<style type="text/css">
+	
+tr.next{
+	background: lightgrey;
+}
+.timezoneinfo {
+	width: 100%;
+}
+.timezoneinfo thead td {
+	text-align: center;
+}
+.leftborder{
+	border-left: solid;
+}
+header{
+	margin: 30px 0;
+}
+</style>
 <script type="text/javascript">
 $('document').ready(function(){
 
@@ -23,9 +41,20 @@ $('document').ready(function(){
 
 	});
 
+
+	var additions = {
+		"Mon" : 6,
+		"Tue" : 6,
+		"Wed" : 6,
+		"Thu" : 6,
+		"Fri" : 6+24+24,
+	}
+
+
 	$('#timezone').val(moment.tz.guess());
 
 	configure = function() { 
+
 
 
 
@@ -35,15 +64,18 @@ $('document').ready(function(){
 			var b = moment(time);
 			$(this).html("");
 			$(this).append($('<td>').html($(this).data('variant')));
-			$(this).append($('<td>').html(b.clone().tz(zone).format('ddd DD MMM h:mma z').replace("+06", "GMT+6")));
+			$(this).append($('<td>').addClass("leftborder").html(b.clone().tz(zone).format('ddd DD MMM h:mma z').replace("+06", "GMT+6")));
 
 
 			$(this).append($('<td>').html(b.clone().tz($('#timezone').val()).format('ddd DD MMM h:mma z').replace("+","GMT+").replace("-","GMT-")));
 
+			dayInUS = b.clone().tz("America/New_York").format("ddd");
+			extra = additions[dayInUS];
 
-			publish = b.clone().add("6","hours");
+
+			publish = b.clone().add(extra,"hours");
 			// $(this).append($('<td>').html("Publish"));
-			$(this).append($('<td>').css({"border-left":"solid"}).html(publish.clone().tz(zone).format('ddd DD MMM h:mma z').replace("+06", "GMT+6")));
+			$(this).append($('<td>').addClass("leftborder").html(publish.clone().tz(zone).format('ddd DD MMM h:mma z').replace("+06", "GMT+6")));
 
 
 			$(this).append($('<td>').html(publish.clone().tz($('#timezone').val()).format('ddd DD MMM h:mma z').replace("+","GMT+").replace("-","GMT-")));
@@ -51,17 +83,49 @@ $('document').ready(function(){
 
 			// $(this).append($('<td>').html("Day in paper (Publish day in Europe)"));
 			
-			$(this).append($('<td>').css({"border-left":"solid"}).html(publish.clone().tz("Europe/Paris").format('ddd DD').replace("+","GMT+").replace("-","GMT-")));
+			$(this).append($('<td>').addClass("leftborder").html(publish.clone().tz("Europe/Paris").format('dddd').replace("+","GMT+").replace("-","GMT-")));
+			$(this).append($('<td>').html(publish.clone().tz("Europe/Paris").format('MMM DD, yyy').replace("+","GMT+").replace("-","GMT-")));
 
 		});
+
+
+		var now = moment().tz("America/New_York");
+		$("#today").html(now.format('ddd DD MMM h:mma z'))
+		$("#timezoneyou").html(now.clone().tz($('#timezone').val()).format('ddd DD MMM h:mma z'))
+
 	};
-	configure()
 
 	$('#timezone').on('change', configure);
 
 
 	var now = moment().tz("America/New_York");
-	$("#today").html(now.format('ddd DD MMM h:mma z'))
+	nowDay = now.format("DD")
+	nowMonth = now.format("MM")
+	nowYear = now.format("YYYY")
+
+	todaysDeadline = moment.tz(nowYear + "-" + nowMonth + "-" + nowDay + "T14:00", "America/New_York")
+	fst = false;
+	for(i=0;i<7;i ++){
+
+		thisDay = todaysDeadline.clone().add(i,"days");
+
+		if (thisDay.format("ddd") in additions){
+			console.log(thisDay)
+			tr = $("<tr>").addClass("timezone").data("variant",thisDay.format("dddd") + " Deadline").data("time", thisDay.format()).data("zone","America/New_York");
+
+			if (!fst && thisDay.isAfter(moment())) {
+				fst = true;
+				tr.addClass("next")
+			}
+			$('.timezoneinfo').append(tr);
+
+			// <tr class="timezone" data-variant="Monday Deadline" data-time="2024-04-08T14:00-04:00" data-zone="America/New_York" ></tr>
+		}
+
+	}
+	configure()
+	setInterval(configure, 30*1000)
+
 
 
 });
@@ -84,79 +148,63 @@ $('document').ready(function(){
 <body>
 
 
-	<main class="container">
 
-<h1>TheoretiCS Publish time</h1>
+<main class="container">
 
-
-TODAY: <span id="today"></span>
-
-<br><br>
+<header>
+<h1>TheoretiCS Publication Date</h1>
+</header>
 
 
+<p class="small text-muted">
 
-
-<table>
-<thead>
-<tr>
-<th align="center">Submissions received between<br>(all times Eastern US)</th>
-<th align="center">Will be announced<br>(all times Eastern US)</th>
-<th align="center">Mailed to subscribers</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">Monday 14:00 – Tuesday 14:00</td>
-<td align="center">Tuesday 20:00</td>
-<td align="center">Tuesday night / Wednesday morning</td>
-</tr>
-<tr>
-<td align="center">Tuesday 14:00 – Wednesday 14:00</td>
-<td align="center">Wednesday 20:00</td>
-<td align="center">Wednesday night / Thursday morning</td>
-</tr>
-<tr>
-<td align="center">Wednesday 14:00 – Thursday 14:00</td>
-<td align="center">Thursday 20:00</td>
-<td align="center">Thursday night / Friday morning</td>
-</tr>
-<tr>
-<td align="center">Thursday 14:00 – Friday 14:00</td>
-<td align="center">Sunday 20:00</td>
-<td align="center">Sunday night / Monday morning</td>
-</tr>
-<tr>
-<td align="center">Friday 14:00 – Monday 14:00</td>
-<td align="center">Monday 20:00</td>
-<td align="center">Monday night / Tuesday morning</td>
-</tr>
-</tbody>
-</table>
-
+Context: arXiv's daily publication deadline is 2pm Eastern US Time, the article is then made available online overnight (except on weekends) and is published by TheoretiCS the next day. Please use this tool to work out the TheoretiCS Publication Date.
+</p>
 <br><br>
 
 <!--- Copy this bit -->
-Select your timezone
+<strong>Step 1: Select your timezone</strong><br>
 <select id="timezone">
-</select> (we've made a guess).<br>
-<br><br>
-TODO: make the dates dynamic based on the current date rather than hardcoded.<br>
-TODO: highlight the current one<br>
-TODO: add the rest of the days (needs smarter logic, rather than +n hours)<br>
-<table class="timezoneinfo">
-	<tr>	
-		<td>header</td>
-		<td>Submit Deadline, arxiv timezone</td>
-		<td>Submit Deadline, you</td>
-		<td>Publish time, arxiv timezone</td>
-		<td>Publish time, you</td>
-		<td>Publish time, TheoretiCS timezone<br>
-		Use this day for Published</td>
-	</tr>
+</select> (we've made a guess from your system).
 
-<tr class="timezone" data-variant="Monday Submission" data-time="2024-04-12T14:00-04:00" data-zone="America/New_York" ></tr>
-<tr class="timezone" data-variant="Tuesday Submission" data-time="2024-04-13T14:00-04:00" data-zone="America/New_York" ></tr>
+<br><br>
+<strong>Step 2: Check the time is correct</strong><br>
+Current Time for arXiv: <span id="today"></span><br>
+Current Time for you: <span id="timezoneyou"></span>
+
+
+
+<br><br>
+<strong>Step 3: Work out the TheoretiCS Publication date by when you will submit</strong><br>
+<span class="text-muted small">The next deadline is highlighted in grey</span>
+<br>
+<table class="timezoneinfo">
+	<thead>
+	<tr>	
+		<td></td>
+		<td colspan="2" class="leftborder">Submit Deadline</td>
+		<td colspan="2"  class="leftborder">Published on arXiv</td>
+		</td>
+		<td colspan="2" class="leftborder">TheoretiCS Publication Date</td>
+	</tr>
+	<tr>	
+		<td></td>
+		<td  class="leftborder">arXiv timezone</td>
+		<td>your timezone</td>
+		<td  class="leftborder">arXiv timezone</td>
+		<td>your timezone</td>
+		<td  colspan="2" class="leftborder">(Central Europe)</td>
+	</tr>
+	</thead>
+
 </table>
+
+<!-- 
+<tr class="timezone" data-variant="Monday Deadline" data-time="2024-04-08T14:00-04:00" data-zone="America/New_York" ></tr>
+<tr class="timezone" data-variant="Tuesday Deadline" data-time="2024-04-09T14:00-04:00" data-zone="America/New_York" ></tr>
+<tr class="timezone" data-variant="Wednesday Deadline" data-time="2024-04-10T14:00-04:00" data-zone="America/New_York" ></tr>
+<tr class="timezone" data-variant="Thursday Deadline" data-time="2024-04-11T14:00-04:00" data-zone="America/New_York" ></tr>
+<tr class="timezone" data-variant="Friday Deadline" data-time="2024-04-12T14:00-04:00" data-zone="America/New_York" ></tr> -->
 
 <!--- To this bit -->
 
