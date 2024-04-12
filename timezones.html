@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CAV'21 Dynamic Schedule</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+<!--- Copy this bit -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone-with-data.js" integrity="sha512-nwFvp27oDSOkJAXZdkqJDB2FkkI3dXJKSapfBmm+R9YW/4KvT8SAGhyTxmt6Uxfa49rTYODHdjjVjOLSJELfJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+$('document').ready(function(){
+
+	var names = moment.tz.names();
+	$.each(names, function(i,item){
+		if (item.indexOf("Etc/") != 0){ // Etc names are confusing 
+			$("#timezone").append($('<option>', {
+			    value: item,
+			    text: item
+			}));
+		}
+
+	});
+
+	$('#timezone').val(moment.tz.guess());
+
+	configure = function() { 
+
+
+
+		$('tr.timezone').each(function(item){
+			var time = $(this).data('time');
+			var zone = $(this).data('zone');
+			var b = moment(time);
+			$(this).html("");
+			$(this).append($('<td>').html($(this).data('variant')));
+			$(this).append($('<td>').html(b.clone().tz(zone).format('ddd DD MMM h:mma z').replace("+06", "GMT+6")));
+
+
+			$(this).append($('<td>').html(b.clone().tz($('#timezone').val()).format('ddd DD MMM h:mma z').replace("+","GMT+").replace("-","GMT-")));
+
+
+			publish = b.clone().add("6","hours");
+			// $(this).append($('<td>').html("Publish"));
+			$(this).append($('<td>').css({"border-left":"solid"}).html(publish.clone().tz(zone).format('ddd DD MMM h:mma z').replace("+06", "GMT+6")));
+
+
+			$(this).append($('<td>').html(publish.clone().tz($('#timezone').val()).format('ddd DD MMM h:mma z').replace("+","GMT+").replace("-","GMT-")));
+			
+
+			// $(this).append($('<td>').html("Day in paper (Publish day in Europe)"));
+			
+			$(this).append($('<td>').css({"border-left":"solid"}).html(publish.clone().tz("Europe/Paris").format('ddd DD').replace("+","GMT+").replace("-","GMT-")));
+
+		});
+	};
+	configure()
+
+	$('#timezone').on('change', configure);
+
+
+	var now = moment().tz("America/New_York");
+	$("#today").html(now.format('ddd DD MMM h:mma z'))
+
+
+});
+
+</script>
+<style>
+.has-vivid-red-color {
+	color: red;
+	font-weight: bold;
+}
+.timezoneinfo td{
+ padding: 3px;
+
+}
+</style>
+<!--- To this bit -->
+
+
+</head>
+<body>
+
+
+	<main class="container">
+
+<h1>TheoretiCS Publish time</h1>
+
+
+TODAY: <span id="today"></span>
+
+<br><br>
+
+
+
+
+<table>
+<thead>
+<tr>
+<th align="center">Submissions received between<br>(all times Eastern US)</th>
+<th align="center">Will be announced<br>(all times Eastern US)</th>
+<th align="center">Mailed to subscribers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Monday 14:00 – Tuesday 14:00</td>
+<td align="center">Tuesday 20:00</td>
+<td align="center">Tuesday night / Wednesday morning</td>
+</tr>
+<tr>
+<td align="center">Tuesday 14:00 – Wednesday 14:00</td>
+<td align="center">Wednesday 20:00</td>
+<td align="center">Wednesday night / Thursday morning</td>
+</tr>
+<tr>
+<td align="center">Wednesday 14:00 – Thursday 14:00</td>
+<td align="center">Thursday 20:00</td>
+<td align="center">Thursday night / Friday morning</td>
+</tr>
+<tr>
+<td align="center">Thursday 14:00 – Friday 14:00</td>
+<td align="center">Sunday 20:00</td>
+<td align="center">Sunday night / Monday morning</td>
+</tr>
+<tr>
+<td align="center">Friday 14:00 – Monday 14:00</td>
+<td align="center">Monday 20:00</td>
+<td align="center">Monday night / Tuesday morning</td>
+</tr>
+</tbody>
+</table>
+
+<br><br>
+
+<!--- Copy this bit -->
+Select your timezone
+<select id="timezone">
+</select> (we've made a guess).<br>
+<br><br>
+
+<table class="timezoneinfo">
+	<tr>	
+		<td>header</td>
+		<td>Submit Deadline, arxiv timezone</td>
+		<td>Submit Deadline, you</td>
+		<td>Publish time, arxiv timezone</td>
+		<td>Publish time, you</td>
+		<td>Publish time, TheoretiCS timezone<br>
+		Use this day for Published</td>
+	</tr>
+<tr class="timezone" data-variant="Monday Submission" data-time="2024-04-12T14:00-04:00" data-zone="America/New_York" ></tr>
+<tr class="timezone" data-variant="Tuesday Submission" data-time="2024-04-12T14:00-04:00" data-zone="America/New_York" ></tr>
+</table>
+
+<!--- To this bit -->
+
+
+</main>
+</body>
+</html>
