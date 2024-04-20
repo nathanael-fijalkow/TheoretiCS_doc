@@ -1,6 +1,6 @@
 # TheoretiCS Survival Kit for Editors
 
-> Authors: Antoine Amarilli, Javier Esparza, Nathanaël Fijalkow, Uri Zwick
+> Authors: Antoine Amarilli, Nathanaël Fijalkow, Mikaël Monet, David Purser, Javier Esparza, Uri Zwick
 
 This document is intended for TheoretiCS editors as a survival kit.
 If you want a quick reference of the
@@ -8,7 +8,7 @@ workflow, have a look at the flowchart for [phase 1](editors-phase1.pdf) and [ph
 
 ## Where to find help
 
-Email the [managing editors: Nathanaël Fijalkow, Mikaël Monet and David Purser](mailto:nathanael.fijalkow@gmail.com,mikael.monet@inria.fr,d.purser@liverpool.ac.uk)
+Email the [managing editors: Mikaël Monet and David Purser](mailto:managing-editors@theoretics-journal.org)
 or the [editors-in-chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
 
 ## Three features to keep in mind
@@ -31,7 +31,7 @@ of each iteration are:
 
 ### Collective responsibility for acceptance / rejection
 
-Unless they have a [conflict of interest](https://theoretics.episciences.org/page/conflict-of-interest-policy), all members of the Editorial Board can see all articles,
+Unless they have a [conflict of interest](https://theoretics.episciences.org/page/policies), all members of the Editorial Board can see all articles,
 comment on them, support the decisions proposed by the editors assigned to a paper, or raise objections.
 In particular, editors do not directly accept/reject papers, they propose a decision 
 to the Editorial Board instead. Acceptance and rejection decisions are always

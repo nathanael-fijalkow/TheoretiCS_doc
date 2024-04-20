@@ -1,6 +1,9 @@
 # TheoretiCS Helper for Editors
 
-> Authors: Antoine Amarilli, Nathanaël Fijalkow
+> Authors: Antoine Amarilli, Nathanaël Fijalkow, Mikaël Monet, David Purser, Javier Esparza, Uri Zwick
+
+This is the full guide, a quick guide is available here: [Survival Kit for editors](survival_editors.html)
+
 
 This document is intended for TheoretiCS editors to present the workflow of the
 journal, which is a two-phase process. If you want a quick reference of the
@@ -316,7 +319,7 @@ editors to comment on the article. Once this period has elapsed, the editors-in-
 
 ## Getting help
 
-Email the [managing editors: Nathanaël Fijalkow, Mikaël Monet and David Purser](mailto:nathanael.fijalkow@gmail.com,mikael.monet@inria.fr,d.purser@liverpool.ac.uk)
+Email the [managing editors: Mikaël Monet and David Purser](mailto:managing-editors@theoretics-journal.org)
 or the [editors-in-chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
 
 ## Useful links

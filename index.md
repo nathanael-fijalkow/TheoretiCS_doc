@@ -6,3 +6,4 @@
 * [Helper for editors](editors.html)
 * [Helper for editors-in-chief](editors-in-chief.html)
 * [Publishing procedure (for editors-in-chief and managing editors)](beyond-acceptance.html)
+* [Publication Date tool for Authors and Managing editors](timezones.html)
