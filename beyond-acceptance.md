@@ -88,6 +88,8 @@ stage of this process. The process is:
 9. Managing editors add the DOI in the platform (click "request DOI" and check
    that the DOI assigned is the same as above)
 
+9. Managing editors add the ORCID in the episciences system (using Update ORCID button on the management page), where these are provided on the PDF.
+
 10. Managing editors click publish
 
 11. Managing editors check that the article shows up in the "latest articles"
