@@ -434,9 +434,14 @@ To communicate the decision to the authors:
 
 * Access the paper (using Dashboard, as above)
 
-To accept or reject: 
+To accept: 
 
-* Scroll down to the "Article status" tab and click on "Change article status" to "Accept and proceed to copy editing" or "Reject this article" (both highlighted in red)
+* Scroll down to the "Article status" tab and click on "Change article status" to "Accept and proceed to copy editing" (example highlighted in red) or "Ask for final version".  (Which option is displayed depends on whether the current version corresponds with an arXiv version or is a temporary version, only saved in the episciences system.)
+* Ensure the subject is suitable (e.g. TheoretiCS #XXXXX - Your article has been accepted).
+* The email does not ask for the sources, the managing editors will send a second email asking for the sources. Please ensure they are informed.
+
+To reject:
+* Scroll down to the "Article status" tab and click on "Change article status"  and select "Reject this article" (highlighted in red)
 
 <img src="Final_decision.svg" alt="Final decision" width="600"/>
 
@@ -445,21 +450,7 @@ publication.
 
 ## Publication process (for managing editors)
 
-Once the final version of the paper has been posted to arXiv, here are the steps
-to take:
-
-- Import the latest arXiv version of the paper in the system -- either from the
-  management page by clicking the edit icon next to the article version, or by
-  answering the request for the final version from the *public page* of the
-  article.
-- **IMPORTANT:** Set the volume and
-   check that the article numbers are correct. (This cannot be changed
-   after publication without emailing Episciences.)
-- Add the DOI to the article
-- Change the article status to publish the article
-- Remove the article from the "Coming soon" page
-- Check that the article shows up in the "latest articles" page (there
-   seems to be a small delay of a few minutes)
+See [guide for managing editors here.](beyond-acceptance.html)
 
 ## Special workflow for conflicted papers
 
