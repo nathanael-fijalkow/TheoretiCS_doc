@@ -181,7 +181,7 @@ Our commitment to authors is that they must receive the verdict of the first pha
 In the second phase, possibly different reviewers check the validity of the results and the presentation. Submissions that pass the first phase are expected to eventually be published, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
 <br/>
 With best regards, <br/>
-Uri / Javier<br/>
+Uri / Anca<br/>
 Editor-in-chief<br/>
 <br/>
 ----------- END OF VERSION FOR HANDLING EDITOR ---------<br/>
@@ -218,7 +218,7 @@ Our commitment to authors is that they must receive the verdict of the first pha
 In the second phase, reviewers check the validity of the results and make suggestions to achieve a presentation of high quality. Submissions that qualify for the second phase are expected to eventually be published, usually in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
 <br/>
 With best regards, <br/>
-Uri/Javier<br/>
+Uri / Anca<br/>
 Editor-in-chief<br/>
 <br/>
 ----------- END OF VERSION FOR PARTNER EDITOR ------------
@@ -338,8 +338,17 @@ I am very happy to inform you that your paper has successfully passed the first 
 <br/>
 Before starting the second phase of the review process, we would like you to revise your paper to incorporate the comments of the phase 1 reviewers. In particular, please fix: YY<br/>
 <br/>
+We ask you to revise your paper
+<br/><br/>
+*** within 1 month ***
+<br/><br/>
+Please also send me a detailed response to the referee reports.
+<br/><br/>
+To submit your revised version, you can click "Answer this request" -> "Send a temporary version", and submit the new version of your paper, together with the response to the referee reports and additional files if needed. Alternatively, if you prefer, you can update your article on arXiv and select "Answer this request" -> "Upload a new version".
+<br/>
+<br/>
 With best regards,<br/>
-Uri / Javier<br/>
+Uri / Anca<br/>
 Editor-in-Chief<br/>
 <br/>
 ----------- END OF EMAIL ------------<br/>
@@ -382,7 +391,7 @@ I am very happy to inform you that your paper has successfully passed the first 
 The paper will now undergo a thorough review to check the correctness of the results and the exposition. You are not expected to react to the referee reports at this stage.<br/>
 <br/>
 With best regards,<br/>
-Uri / Javier<br/>
+Uri / Anca<br/>
 Editor-in-Chief<br/>
 <br/>
 ----------- END OF EMAIL ------------<br/>
