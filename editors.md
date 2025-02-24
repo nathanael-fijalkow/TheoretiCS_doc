@@ -287,7 +287,8 @@ the authors:
 <img src="Revision_Message.svg" alt="Revision Message" width="600"/>
 
 Please do not forget to remove the reminder text in caps (highlighted in red
-above). You can optionally set a deadline for the revision request.
+above). Please also set the deadline for the revision request matching the period
+requested in the email body.
 
 One important checkbox is "Automatically reinvite reviewers" (at the bottom).
 The justification for this box is that every revision of a paper is a different
@@ -320,7 +321,8 @@ editors to comment on the article. Once this period has elapsed, the editors-in-
 ## Getting help
 
 Email the [managing editors: Mikaël Monet and David Purser](mailto:managing-editors@theoretics-journal.org)
-or the [editors-in-chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
+or the [editors-in-chief: Anca Muscholl and Uri Zwick](mailto:editors-in-chief@theoretics-journal.org)
+
 
 ## Useful links
 

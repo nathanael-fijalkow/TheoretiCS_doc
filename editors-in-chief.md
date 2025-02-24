@@ -166,7 +166,7 @@ Please login to your editor account on <a href="https://theoretics.episciences.o
 <br/>
 Your partner editor is ZZ. You can discuss any action with your partner editor, and the two of you must agree on your final recommendation (see below).<br/>
 <br/>
-Please communicate with your partner editor through the system if at all possible, either by writing comments in the paper's page or by email (click on the mail icon to the right of the name of the editor in the paper's page). Your partner editor receives the same emails as you from the system.<br/>
+Please communicate with your partner editor through the system if at all possible using the "Editors comments" feature on the paper's page. Your partner editor receives the same emails as you from the system.<br/>
 <br/>
 If you haven't assigned at least two reviewers to the paper within two weeks you will start to get automatic reminders. Notice that you can assign yourself and/or your partner editor.<br/>
 <br/>
@@ -179,6 +179,8 @@ I would like to ask you to conclude this first phase before<br/>
 Our commitment to authors is that they must receive the verdict of the first phase (i.e., acceptance to the second phase, or rejection) within 3 months, including discussion with the board. So please remember that this is a firm deadline to submit your recommendation, evaluating the paper yourself if necessary.<br/>
 <br/>
 In the second phase, possibly different reviewers check the validity of the results and the presentation. Submissions that pass the first phase are expected to eventually be published, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
+<br/>
+We have step-by-step guidance for editors explaining our processes <a href="https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html">available here</a>. If you have any difficulties with the system please feel free to ask the managing editors, David and Mikaël, either by posting an editors comment or via <a href="mailto:managing-editors@theoretics-journal.org">managing-editors@theoretics-journal.org</a>.<br/>
 <br/>
 With best regards, <br/>
 Uri / Anca<br/>
@@ -217,6 +219,9 @@ Our commitment to authors is that they must receive the verdict of the first pha
 <br/>
 In the second phase, reviewers check the validity of the results and make suggestions to achieve a presentation of high quality. Submissions that qualify for the second phase are expected to eventually be published, usually in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
 <br/>
+Please communicate with the handling editor through the system if at all possible using the "Editors comments" feature on the paper's page. You both receive the same emails from the system.<br/>
+<br/>
+We have step-by-step guidance for editors explaining our processes <a href="https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html">available here</a>. If you have any difficulties with the system please feel free to ask the managing editors, David and Mikaël, either by posting an editors comment or via <a href="mailto:managing-editors@theoretics-journal.org">managing-editors@theoretics-journal.org</a>.<br/>
 With best regards, <br/>
 Uri / Anca<br/>
 Editor-in-chief<br/>
