@@ -9,7 +9,7 @@ workflow, have a look at the flowchart for [phase 1](editors-phase1.pdf) and [ph
 ## Where to find help
 
 Email the [managing editors: Mikaël Monet and David Purser](mailto:managing-editors@theoretics-journal.org)
-or the [editors-in-chief: Javier Esparza and Uri Zwick](mailto:esparza@in.tum.de,zwick@tau.ac.il)
+or the [editors-in-chief: Anca Muscholl and Uri Zwick](mailto:editors-in-chief@theoretics-journal.org)
 
 ## Three features to keep in mind
 
