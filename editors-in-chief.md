@@ -421,13 +421,13 @@ Editor-in-Chief<br/>
 
 * Scroll down to the "Editors comments" tab and add a comment: 
 <div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-comment-moved">
-Paper moved to phase 2.<br>
+Paper moved to phase 2. Please proceed to invite phase 2 reviewers.<br>
 <br>
 Handling Editor: <br>
 Partner Editor:
 </div></div>
 
-<img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="600"/>
+<img src="add_comment_moved.png" alt="Add comment: Paper moved to phase 2. Please proceed to invite phase 2 reviewers." width="600"/>
 
 The paper will now have status "Submitted", and the editors should take care of it by inviting reviewers (manually).
 The old reviews and reviewers can be found by looking at the "Versions" tab of the article's page.
