@@ -419,7 +419,13 @@ Editor-in-Chief<br/>
 
 <img src="GoPhase2b.png" alt="Move to Phase 2" width="600"/>
 
-* Scroll down to the "Editors comments" tab and add a comment: "Moving the paper to Phase 2."
+* Scroll down to the "Editors comments" tab and add a comment: 
+<div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-comment-moved">
+Paper moved to phase 2.<br>
+<br>
+Handling Editor: <br>
+Partner Editor:
+</div></div>
 
 <img src="Add_comments.png" alt="Add comment: Move to Phase 2" width="600"/>
 
