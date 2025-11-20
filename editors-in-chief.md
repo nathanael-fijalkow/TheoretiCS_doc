@@ -110,6 +110,15 @@ Another case where the paper should be directly submitted to the
 editors-in-chief is for submissions which are in conflict with one of the
 editors-in-chief or managing editors (or directly done by them).
 
+### Editors-in-chief or managing editors: assign to the volume "Phase 1"
+
+We should ensure the article is moved to the volume "Phase 1". Ideally the first person accessing the article should do this. If we fail to do this, and it happens to go out to review, the wrong rating grid will be used. 
+
+To do this, scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 1"
+
+<img src="GoPhase1.png" alt="Go to Phase 1" width="600"/>
+
+
 ### Editors-in-chief: quickly evaluate
 
 * Access the paper (see above)
@@ -122,21 +131,27 @@ Judge if the publication process should proceed further or not. If not, reject t
 
 <img src="Reject.svg" alt="Reject" width="600"/>
 
-### Editors-in-chief: assign to the volume "Phase 1"
 
-If the publication process should continue, the first task is to assign
-the article to Phase 1. To do this, scroll down to the "Volumes and section" tab and change "Master volume" to "Phase 1"
-
-<img src="GoPhase1.png" alt="Go to Phase 1" width="600"/>
 
 ### Editors-in-chief: assign handling and partner editors
 
 The second task is to Scroll down to the "Editors" tab and click on "Assign editors" to select two editors.
+
+
+If the author has suggested an editor you will see their suggestion here. The editor may or may not be suitable based on workload or COI.
+
 At this point there is no distinction between Handling and Partner Editor, but
 try to assign first the handling editor and then the partner editor (the order
 is kept by the system).
 
 <img src="Assign_editors.png" alt="Assign Editors" width="600"/>
+
+### Editors-in-chief: update the Google Sheet
+
+* indicate roles (handling / partner)
+* mark these yellow if not yet requested
+* mark these grey if requested but not yet accessed
+* clear colouring after request
 
 ### Editors-in-chief: write messages to the editors to indicate roles (handling / partner)
 
@@ -156,34 +171,32 @@ message to clipboard</button>
 <br/>
 Subject: TheoretiCS #NN: Handling editor<br/>
 <br/>
-TITLE: XX<br/>
+I would like to ask you to act as handling editor for the following submission to TheoretiCS:
 <br/>
-Dear YY:<br/>
+Title: YY
+Authors: XX
+https://theoretics.episciences.org/administratepaper/view?id=ZZ
 <br/>
-I would like you to act as handling editor of the above submission to TheoretiCS. <br/>
+Conference version appeared in: WW
+Deadline for the first phase: XX (10 weeks from submission date)
+Partner editor: XX
 <br/>
-Please login to your editor account on <a href="https://theoretics.episciences.org/">theoretics.episciences.org</a> to start the review process. Click on "Dashboard" and then on the title of the paper to access the paper's page.<br/>
+<strong>Next steps:</strong> Please access the webpage of the submission by clicking on the link above; indicate that you do not have a COI, assuming this is the case; and start the reviewing process. (You can also access the paper by logging in to theoretics.episciences.org using your editor account, and then going to the "Dashboard".)
 <br/>
-Your partner editor is ZZ. You can discuss any action with your partner editor, and the two of you must agree on your final recommendation (see below).<br/>
+You can discuss any action with your partner editor, and the two of you must agree on your final recommendations for phase 1 and for phase 2, if the paper reaches this stage. Please communicate with your partner editor through the system whenever possible by writing comments in the paper's page. Your partner editor receives the same emails as you from the system.
 <br/>
-Please communicate with your partner editor through the system if at all possible using the "Editors comments" feature on the paper's page. Your partner editor receives the same emails as you from the system.<br/>
+<strong>First phase goals:</strong> Recall that TheoretiCS follows a two-phase reviewing process. In the first phase, you and your partner editor, usually after seeking the opinion of reviewers, agree on a recommendation: Move to the second phase of reviewing, or reject. The main criteria are the significance of the results, the belief that the exposition is of high quality or will be so after revision, and the availability of expert reviewers. In particular, detailed reviews are not necessarily required at this stage.  The recommendation then appears in the weekly digest and needs to be approved by the Editorial Board.
 <br/>
-If you haven't assigned at least two reviewers to the paper within two weeks you will start to get automatic reminders. Notice that you can assign yourself and/or your partner editor.<br/>
+If you haven't invited at least two reviewers to review the paper within two weeks, you will start to get automatic reminders. Notice that you can invite yourself and/or your partner editor to review the submission.
 <br/>
-Recall that TheoretiCS follows a two-phase reviewing process. In the first phase, you and your partner editor, usually after seeking the opinion of reviewers, agree on a recommendation: Accept for the second phase, or reject. The main criteria are the significance of the results, the belief that the exposition is of high quality or will be so after revision, and the availability of expert reviewers. The paper moves to the second phase after approval by the Editorial Board. <br/>
+Please conclude the first phase of reviewing before the deadline mentioned above. We promise the authors to do our best to finish the first phase of reviewing within 3 months. Thus, please consider the deadline above as a strict deadline, making sure we have enough time for discussions. Please consider evaluating the paper yourself, if needed.
 <br/>
-I would like to ask you to conclude this first phase before<br/>
+<strong>Second phase process:</strong> In the second phase, possibly different reviewers check the validity of the results and make suggestions to achieve a presentation of high quality. Submissions that qualify for the second phase are expected to eventually be accepted, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.
 <br/>
-  Date (about current date + 10 weeks) <br/>
+We have step-by-step guidance for editors explaining our processes available here: https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html If you have any difficulties with the system please feel free to ask the managing editors, David and Mikaël, either by posting an editors comment or via <a href="mailto:managing-editors@theoretics-journal.org">managing-editors@theoretics-journal.org</a>.<br/>
 <br/>
-Our commitment to authors is that they must receive the verdict of the first phase (i.e., acceptance to the second phase, or rejection) within 3 months, including discussion with the board. So please remember that this is a firm deadline to submit your recommendation, evaluating the paper yourself if necessary.<br/>
-<br/>
-In the second phase, possibly different reviewers check the validity of the results and the presentation. Submissions that pass the first phase are expected to eventually be published, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
-<br/>
-We have step-by-step guidance for editors explaining our processes <a href="https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html">available here</a>. If you have any difficulties with the system please feel free to ask the managing editors, David and Mikaël, either by posting an editors comment or via <a href="mailto:managing-editors@theoretics-journal.org">managing-editors@theoretics-journal.org</a>.<br/>
-<br/>
-With best regards, <br/>
-Uri / Anca<br/>
+Best regards,
+Shuchi / Anca<br/>
 Editor-in-chief<br/>
 <br/>
 ----------- END OF VERSION FOR HANDLING EDITOR ---------<br/>
@@ -221,9 +234,9 @@ In the second phase, reviewers check the validity of the results and make sugges
 <br/>
 Please communicate with the handling editor through the system if at all possible using the "Editors comments" feature on the paper's page. You both receive the same emails from the system.<br/>
 <br/>
-We have step-by-step guidance for editors explaining our processes <a href="https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html">available here</a>. If you have any difficulties with the system please feel free to ask the managing editors, David and Mikaël, either by posting an editors comment or via <a href="mailto:managing-editors@theoretics-journal.org">managing-editors@theoretics-journal.org</a>.<br/>
+We have step-by-step guidance for editors explaining our processes available here: https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html If you have any difficulties with the system please feel free to ask the managing editors, David and Mikaël, either by posting an editors comment or via <a href="mailto:managing-editors@theoretics-journal.org">managing-editors@theoretics-journal.org</a>.<br/>
 With best regards, <br/>
-Uri / Anca<br/>
+Shuchi / Anca<br/>
 Editor-in-chief<br/>
 <br/>
 ----------- END OF VERSION FOR PARTNER EDITOR ------------
