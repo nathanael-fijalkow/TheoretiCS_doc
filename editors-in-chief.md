@@ -205,9 +205,11 @@ Editor-in-chief<br/>
 ----------- END OF VERSION FOR HANDLING EDITOR ---------<br/>
 </div>
 
+
 **Very important:** as a workaround to avoid [episciences issue
 132](https://github.com/CCSDForge/episciences/issues/132#issuecomment-1005549895),
 **refresh the page**. (Probably fixed.)
+
 
 Now, do the same for the partner editor with the following message:
 
@@ -238,17 +240,17 @@ Please communicate with the handling editor through the system whenever possible
 <br/>
 I have asked the handling editor to conclude this phase before the deadline mentioned above. We promise the authors to do our best to finish the first phase of reviewing within 3 months. Thus, please consider the deadline above as a strict deadline, making sure we have enough time for discussions. Please consider evaluating the paper yourself, if needed.<br/>
 <br/>
-<strong>Second phase process:< In the second phase, reviewers check the validity of the results and make suggestions to achieve a presentation of high quality. Submissions that qualify for the second phase are expected to eventually be accepted, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
+<strong>Second phase process:</strong> In the second phase, reviewers check the validity of the results and make suggestions to achieve a presentation of high quality. Submissions that qualify for the second phase are expected to eventually be accepted, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
 <br/>
 We have step-by-step guidance for editors explaining our processes available here: <a href="https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html">https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html</a> If you have any difficulties with the system please feel free to ask the managing editors, David and Mikaël, either by posting an editors comment or via <a href="mailto:managing-editors@theoretics-journal.org">managing-editors@theoretics-journal.org</a>.<br/>
 <br/>
 Best regards, <br/>
 Shuchi / Anca<br/>
 Editor-in-chief<br/>
-<br/>
 </div>
 ----------- END OF VERSION FOR PARTNER EDITOR ------------<br/>
 </div>
+
 
 ### Assigned editors: invite reviewers
 
