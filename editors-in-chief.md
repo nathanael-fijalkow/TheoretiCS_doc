@@ -205,7 +205,7 @@ Editor-in-chief<br/>
 
 **Very important:** as a workaround to avoid [episciences issue
 132](https://github.com/CCSDForge/episciences/issues/132#issuecomment-1005549895),
-**refresh the page**.
+**refresh the page**. (Probably fixed.)
 
 Now, do the same for the partner editor with the following message:
 
