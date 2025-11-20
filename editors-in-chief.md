@@ -167,8 +167,9 @@ Change the subject and fill the message (see picture below), according to the te
 
 <button onclick="copyDivToClipboard('msg-handling')">Copy handling editor
 message to clipboard</button>
-<div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-handling">
+<div style="max-width: 700px; font-family: monospace; font-size: 70%">
 --------- VERSION FOR HANDLING EDITOR ------<br/>
+<div id="msg-handling">
 <br/>
 Subject: TheoretiCS #NN: Handling editor<br/>
 <br/>
@@ -200,8 +201,9 @@ Best regards,
 Shuchi / Anca<br/>
 Editor-in-chief<br/>
 <br/>
+</div>
 ----------- END OF VERSION FOR HANDLING EDITOR ---------<br/>
-</div></div>
+</div>
 
 **Very important:** as a workaround to avoid [episciences issue
 132](https://github.com/CCSDForge/episciences/issues/132#issuecomment-1005549895),
@@ -210,8 +212,9 @@ Editor-in-chief<br/>
 Now, do the same for the partner editor with the following message:
 
 <button onclick="copyDivToClipboard('msg-partner')">Copy partner editor message to clipboard</button>
-<div style="max-width: 700px; font-family: monospace; font-size: 70%"><div id="msg-partner">
+<div style="max-width: 700px; font-family: monospace; font-size: 70%">
 ------------ VERSION FOR PARTNER EDITOR ------<br/>
+  <div id="msg-partner">
 <br/>
 Subject: TheoretiCS #NN: Partner editor<br/>
 <br/>
@@ -243,8 +246,9 @@ Best regards, <br/>
 Shuchi / Anca<br/>
 Editor-in-chief<br/>
 <br/>
+</div>
 ----------- END OF VERSION FOR PARTNER EDITOR ------------
-</div></div>
+</div>
 
 ### Assigned editors: invite reviewers
 
