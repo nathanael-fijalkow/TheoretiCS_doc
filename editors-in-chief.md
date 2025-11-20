@@ -214,7 +214,7 @@ Now, do the same for the partner editor with the following message:
 <button onclick="copyDivToClipboard('msg-partner')">Copy partner editor message to clipboard</button>
 <div style="max-width: 700px; font-family: monospace; font-size: 70%">
 ------------ VERSION FOR PARTNER EDITOR ------<br/>
-  <div id="msg-partner">
+<div id="msg-partner">
 <br/>
 Subject: TheoretiCS #NN: Partner editor<br/>
 <br/>
@@ -247,7 +247,7 @@ Shuchi / Anca<br/>
 Editor-in-chief<br/>
 <br/>
 </div>
------------ END OF VERSION FOR PARTNER EDITOR ------------
+----------- END OF VERSION FOR PARTNER EDITOR ------------<br/>
 </div>
 
 ### Assigned editors: invite reviewers
