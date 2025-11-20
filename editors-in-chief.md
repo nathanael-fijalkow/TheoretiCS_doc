@@ -144,7 +144,8 @@ At this point there is no distinction between Handling and Partner Editor, but
 try to assign first the handling editor and then the partner editor (the order
 is kept by the system).
 
-<img src="Assign_editors.png" alt="Assign Editors" width="600"/>
+<img src="Assign_editors.png" alt="Assign Editors" width="500"/>
+<img src="suggested-editor.png" alt="Assign Editors" width="500"/>
 
 ### Editors-in-chief: update the Google Sheet
 
