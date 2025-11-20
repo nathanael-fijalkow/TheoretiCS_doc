@@ -228,17 +228,17 @@ Conference version appeared in: WW<br/>
 Deadline for the first phase: XX (10 weeks from submission date)<br/>
 Handling editor: XX<br/>
 <br/>
-Next steps: Please access the webpage of the submission by clicking on the link above; indicate that you do not have a COI, assuming this is the case; and start the reviewing process. (You can also access the paper by logging in to theoretics.episciences.org using your editor account, and then going to the "Dashboard".)<br/>
+<strong>Next steps:</strong> Please access the webpage of the submission by clicking on the link above; indicate that you do not have a COI, assuming this is the case; and start the reviewing process. (You can also access the paper by logging in to theoretics.episciences.org using your editor account, and then going to the "Dashboard".)<br/>
 <br/>
 The handling editor is in charge of managing the review process, in collaboration with you, and you must make a joint recommendation.<br/>
 <br/>
 Please communicate with your partner editor through the system whenever possible by writing comments in the paper's page. Your partner editor receives the same emails as you from the system.<br/>
 <br/>
-First phase goals: Recall that TheoretiCS follows a two-phase reviewing process. In the first phase, you and the handling editor, usually after seeking the opinion of reviewers, agree on a recommendation: Move to the second phase of reviewing, or reject. The main criteria are the significance of the results, the belief that the exposition is of high quality or will be so after revision, and the availability of expert reviewers. The recommendation then appears in the weekly digest and needs to be approved by the Editorial Board.<br/>
+<strong>First phase goals:</strong> Recall that TheoretiCS follows a two-phase reviewing process. In the first phase, you and the handling editor, usually after seeking the opinion of reviewers, agree on a recommendation: Move to the second phase of reviewing, or reject. The main criteria are the significance of the results, the belief that the exposition is of high quality or will be so after revision, and the availability of expert reviewers. The recommendation then appears in the weekly digest and needs to be approved by the Editorial Board.<br/>
 <br/>
 I have asked the handling editor to conclude this phase before the deadline mentioned above. We promise the authors to do our best to finish the first phase of reviewing within 3 months. Thus, please consider the deadline above as a strict deadline, making sure we have enough time for discussions. Please consider evaluating the paper yourself, if needed.<br/>
 <br/>
-Second phase process: In the second phase, reviewers check the validity of the results and make suggestions to achieve a presentation of high quality. Submissions that qualify for the second phase are expected to eventually be accepted, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
+<strong>Second phase process:</strong> In the second phase, reviewers check the validity of the results and make suggestions to achieve a presentation of high quality. Submissions that qualify for the second phase are expected to eventually be accepted, sometimes in revised form, unless significant issues are detected or the desired quality of exposition is not achieved.<br/>
 <br/>
 We have step-by-step guidance for editors explaining our processes available here: https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html If you have any difficulties with the system please feel free to ask the managing editors, David and Mikaël, either by posting an editors comment or via <a href="mailto:managing-editors@theoretics-journal.org">managing-editors@theoretics-journal.org</a>.<br/>
 <br/>
