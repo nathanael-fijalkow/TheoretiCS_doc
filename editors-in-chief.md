@@ -232,7 +232,7 @@ Handling editor: XX<br/>
 <br/>
 The handling editor is in charge of managing the review process, in collaboration with you, and you must make a joint recommendation.<br/>
 <br/>
-Please communicate with your partner editor through the system whenever possible by writing comments in the paper's page. Your partner editor receives the same emails as you from the system.<br/>
+Please communicate with the handling editor through the system whenever possible by writing comments in the paper's page. The handling editor receives the same emails as you from the system.<br/>
 <br/>
 <strong>First phase goals:</strong> Recall that TheoretiCS follows a two-phase reviewing process. In the first phase, you and the handling editor, usually after seeking the opinion of reviewers, agree on a recommendation: Move to the second phase of reviewing, or reject. The main criteria are the significance of the results, the belief that the exposition is of high quality or will be so after revision, and the availability of expert reviewers. The recommendation then appears in the weekly digest and needs to be approved by the Editorial Board.<br/>
 <br/>
