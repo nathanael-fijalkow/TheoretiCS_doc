@@ -21,10 +21,10 @@ TheoretiCS has a two-phase review system:
   - Phase 2: Checks the validity and makes suggestions to achieve a presentation of high quality. [Flowchart](editors-phase2.pdf)
 
 * How papers progress between phases 
-  - At each phase:  after the two editors have reached agreement, the handling editor proposes a recommendation by adding a comment (with some justification).
+  - At each phase:  after the two editors have reached agreement, the handling editor proposes a recommendation, by using the "Change article status" dropdown, selecting the appropriate recommendation, and adding a comment (with some justification).
   - Every recommendation is communicated via the weekly digest to the EB. 
-  - All member of the EB can see all articles (unless they have a [conflict of interest](https://theoretics.episciences.org/page/policies)) and  are invited to discuss the recommendation on the article management page: comment on them, support the decisions proposed by the editors assigned to a paper, or raise objections.
-  - Acceptance, rejection and move to phase 2 decisions are always communicated to the authors **by the editors-in-chief** following the outcome of the discussion, they are **not implemented by editors directly**.
+  - All members of the EB can see all articles (unless they have a [conflict of interest](https://theoretics.episciences.org/page/policies)) and  are invited to discuss the recommendation on the article management page: comment on them, support the decisions proposed by the editors assigned to a paper, or raise objections.
+  - Acceptance, rejection and move to phase 2 decisions are always communicated to the authors **by the editors-in-chief** following the outcome of the discussion, they are **not implemented by editors directly** (i.e., editors do not use the "accept" or "reject" actions of the "Change article status" dropdown).
 
 * The expected total duration of Phase 1 is ***THREE MONTHS***. 
 The only two possible outcomes of this phase are:   
@@ -50,11 +50,11 @@ To communicate with the author, under “Contributor”, click on the envelope i
 
 When issuing a review there are few things to keep in mind:
 
-* Check whether the potential review already has an account within TheoretiCS or episciences during the review invitation process.
+* Check whether the potential reviewer already has an account within TheoretiCS or episciences during the review invitation process.
 
-* Keep the correct part of the email template relevant to Phase 1 or Phase 2. 
+* Erase the part of the email template that is irrelevant to the current phase. 
 
-* To invite a review to check a revision in Phase 2 there is no specific template, and you will need to write an appropriate message.
+* To invite a reviewer to check a revision in Phase 2 there is no specific template, and you will need to write an appropriate message.
 
 
 ### Two editors per paper
