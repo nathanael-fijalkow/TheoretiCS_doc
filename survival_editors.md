@@ -2,9 +2,7 @@
 
 > Authors: Managing editors and Editors-in-chief
 
-This document is intended for TheoretiCS editors as a survival kit.
-If you want a quick reference of the
-workflow, have a look at the flowchart for [phase 1](editors-phase1.pdf) and [phase 2](editors-phase2.pdf).
+This document is intended for TheoretiCS editors as a high-level survival kit. For detailed step-by-step guidance on each aspect of the workflow, please see the [step-by-step help for editors](https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html)
 
 ## Where to find help
 
@@ -19,8 +17,8 @@ by most journals in three aspects, which you should keep in mind.
 ### Two-phase reviewing
 
 TheoretiCS has a two-phase review system: 
-  - Phase 1: Evaluates the significance and lasting value of the results, and the quality of the exposition.
-  - Phase 2: Checks the validity and makes suggestions to achieve a presentation of high quality.
+  - Phase 1: Evaluates the significance and lasting value of the results, and the quality of the exposition. ([Flowchart](editors-phase1.pdf))
+  - Phase 2: Checks the validity and makes suggestions to achieve a presentation of high quality. [Flowchart](editors-phase2.pdf)
 
 * How papers progress between phases 
   - At each phase:  after the two editors have reached agreement, the handling editor proposes a recommendation by adding a comment (with some justification).
@@ -65,8 +63,4 @@ Each paper is assigned to two editors: the **handling editor**, who
 is responsible for the paper, and the **partner editor**, who
 assists the handling editor, and for example can be consulted 
 regarding challenging decisions.
-
-### Step-by-step guidance
-
-For step-by-step guidance on each aspect, please see the [Help for editors](https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html)
 
