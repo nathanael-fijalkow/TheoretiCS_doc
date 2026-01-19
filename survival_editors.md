@@ -24,21 +24,21 @@ TheoretiCS has a two-phase review system. Phase 1 and Phase 2.
   - At each phase:  after the two editors have reached agreement, the handling editor proposes a recommendation by adding a comment (with some justification).
   - Every recommendation is communicated via the weekly digest to the EB. 
   - All member of the EB can see all articles (unless they have a [conflict of interest](https://theoretics.episciences.org/page/policies)) and  are invited to discuss the recommendation on the article management page: comment on them, support the decisions proposed by the editors assigned to a paper, or raise objections.
-  - Acceptance, rejection and move to phase 2 decisions are always communicated to the authors by the editors-in-chief following the outcome of the discussion, they are not implemented by editors directly.
+  - Acceptance, rejection and move to phase 2 decisions are always communicated to the authors **by the editors-in-chief** following the outcome of the discussion, they are **not implemented by editors directly**.
 
 * The expected total duration of Phase 1 is ***THREE MONTHS***. 
 The only two possible outcomes of this phase are:   
 *Accept for phase 2 / Reject*
 
-* Revisions never happen *during* Phase 1 (it should not be needed to judge the significance and lasting value). Papers can be asked for a revision **between Phase 1 and Phase 2** (but it is considered to have passed Phase 1). *This request is issued by the EiC alongside the move to Phase 2.*
+* Revisions never happen *during* Phase 1 (it should not be needed to judge the significance and lasting value). Papers can be asked for a revision **between Phase 1 and Phase 2** (but it is considered to have passed Phase 1). **This request is issued by the EiC alongside the move to Phase 2.**
 
 * Papers accepted for the second-phase are eventually accepted, unless something (hopefully) unusual happens: errors are found, or  authors are unable or unwilling to implement reasonable changes requested by reviewers.
 
 * Phase 2 runs according to the standard loop of reviews and revisions. The possible outcomes 
 of each iteration are:   
   *Accept / Major Revision / Minor Revision / Reject*  
-  Revisions during phase 2 are handled by the editors.  
-  Proposals to Accept or Reject are made as recommendations noted above.
+  **Revisions during phase 2 are handled by the editors.**
+  Proposals to Accept or Reject are made as recommendations as described above.
 
 ### Communication
 
