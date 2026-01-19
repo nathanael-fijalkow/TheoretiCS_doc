@@ -42,7 +42,7 @@ of each iteration are:
 
 ### Communication
 
-Please communicate between editors using the comments system within the article management page. This helps the Editors-in-chief and managing editors know that the paper is progressing.
+Please communicate between editors using the "Editors comments" system on the article management page. This helps keep the discussion in one place and helps the Editors-in-chief and managing editors know that the paper is progressing.
 
 To communicate with the author, under “Contributor”, click on the envelope icon.
 
