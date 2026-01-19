@@ -52,3 +52,8 @@ Each paper is assigned to two editors: the **handling editor**, who
 is responsible for the paper, and the **partner editor**, who
 assists the handling editor, and for example can be consulted 
 regarding challenging decisions.
+
+### Step-by-step guidance
+
+For step-by-step guidance on each aspect, please see the [Help for editors](https://nathanael-fijalkow.github.io/TheoretiCS_doc/editors.html)
+
