@@ -48,11 +48,13 @@ To communicate with the author, under “Contributor”, click on the envelope i
 
 ### Review invitations
 
-When issuing a review there are two things to keep in mind:
+When issuing a review there are few things to keep in mind:
 
 * Check whether the potential review already has an account within TheoretiCS or episciences during the review invitation process.
 
-* Keep the correct part of the email template relevant to Phase 1 or Phase 2. For checking a revision there is no specific template and you will need to write an appropriate message.
+* Keep the correct part of the email template relevant to Phase 1 or Phase 2. 
+
+* To invite a review to check a revision in Phase 2 there is no specific template, and you will need to write an appropriate message.
 
 
 ### Two editors per paper
