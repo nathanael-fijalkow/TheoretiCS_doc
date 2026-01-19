@@ -18,7 +18,9 @@ by most journals in three aspects, which you should keep in mind.
 
 ### Two-phase reviewing
 
-TheoretiCS has a two-phase review system. Phase 1 and Phase 2.
+TheoretiCS has a two-phase review system: 
+  - Phase 1: Evaluates the significance and lasting value of the results, and the quality of the exposition.
+  - Phase 2: Checks the validity and makes suggestions to achieve a presentation of high quality.
 
 * How papers progress between phases 
   - At each phase:  after the two editors have reached agreement, the handling editor proposes a recommendation by adding a comment (with some justification).
