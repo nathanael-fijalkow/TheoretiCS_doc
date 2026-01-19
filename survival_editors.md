@@ -46,6 +46,15 @@ Please communicate between editors using the comments system within the article 
 
 To communicate with the author, under “Contributor”, click on the envelope icon.
 
+### Review invitations
+
+When issuing a review there are two things to keep in mind:
+
+* Check whether the potential review already has an account within TheoretiCS or episciences during the review invitation process.
+
+* Keep the correct part of the email template relevant to Phase 1 or Phase 2. For checking a revision there is no specific template and you will need to write an appropriate message.
+
+
 ### Two editors per paper
 
 Each paper is assigned to two editors: the **handling editor**, who
