@@ -1,6 +1,6 @@
 # TheoretiCS Survival Kit for Editors
 
-> Authors: Antoine Amarilli, Nathanaël Fijalkow, Mikaël Monet, David Purser, Javier Esparza, Uri Zwick
+> Authors: Managing editors and Editors-in-chief
 
 This document is intended for TheoretiCS editors as a survival kit.
 If you want a quick reference of the
@@ -9,34 +9,42 @@ workflow, have a look at the flowchart for [phase 1](editors-phase1.pdf) and [ph
 ## Where to find help
 
 Email the [managing editors: Mikaël Monet and David Purser](mailto:managing-editors@theoretics-journal.org)
-or the [editors-in-chief: Anca Muscholl and Uri Zwick](mailto:editors-in-chief@theoretics-journal.org)
+or the [editors-in-chief: Anca Muscholl and Shuchi Chawla](mailto:editors-in-chief@theoretics-journal.org)
 
-## Three features to keep in mind
+## Features to keep in mind
 
 The reviewing process at TheoretiCS differs from the one followed
 by most journals in three aspects, which you should keep in mind.
 
 ### Two-phase reviewing
 
-TheoretiCS has a two-phase review system. 
+TheoretiCS has a two-phase review system. Phase 1 and Phase 2.
+
+* How papers progress between phases 
+  - At each phase:  after the two editors have reached agreement, the handling editor proposes a recommendation by adding a comment (with some justification).
+  - Every recommendation is communicated via the weekly digest to the EB. 
+  - All member of the EB can see all articles (unless they have a [conflict of interest](https://theoretics.episciences.org/page/policies)) and  are invited to discuss the recommendation on the article management page: comment on them, support the decisions proposed by the editors assigned to a paper, or raise objections.
+  - Acceptance, rejection and move to phase 2 decisions are always communicated to the authors by the editors-in-chief following the outcome of the discussion, they are not implemented by editors directly.
+
 * The expected total duration of Phase 1 is ***THREE MONTHS***. 
-The only two possible outcomes of this phase are: 
-> Accept for phase 2 / Reject
+The only two possible outcomes of this phase are:   
+*Accept for phase 2 / Reject*
+
+* Revisions never happen *during* Phase 1 (it should not be needed to judge the significance and lasting value). Papers can be asked for a revision **between Phase 1 and Phase 2** (but it is considered to have passed Phase 1). *This request is issued by the EiC alongside the move to Phase 2.*
 
 * Papers accepted for the second-phase are eventually accepted, unless something (hopefully) unusual happens: errors are found, or  authors are unable or unwilling to implement reasonable changes requested by reviewers.
 
 * Phase 2 runs according to the standard loop of reviews and revisions. The possible outcomes 
-of each iteration are:
-> Accept / Major Revision / Minor Revision / Reject
+of each iteration are:   
+  *Accept / Major Revision / Minor Revision / Reject*  
+  Revisions during phase 2 are handled by the editors.  
+  Proposals to Accept or Reject are made as recommendations noted above.
 
-### Collective responsibility for acceptance / rejection
+### Communication
 
-Unless they have a [conflict of interest](https://theoretics.episciences.org/page/policies), all members of the Editorial Board can see all articles,
-comment on them, support the decisions proposed by the editors assigned to a paper, or raise objections.
-In particular, editors do not directly accept/reject papers, they propose a decision 
-to the Editorial Board instead. Acceptance and rejection decisions are always
-implemented by the editors-in-chief following the outcome of the discussion,
-they are not implemented by editors directly.
+Please communicate between editors using the comments system within the article management page. This helps the Editors-in-chief and managing editors know that the paper is progressing.
+
+To communicate with the author, under “Contributor”, click on the envelope icon.
 
 ### Two editors per paper
 
